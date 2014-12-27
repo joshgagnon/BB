@@ -1,0 +1,28 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font: 13px/26px "Open Sans",sans-serif;
+    color: #595757;
+    text-align: center;
+    padding-bottom: 200px;
+}
+section.header{
+	background: url('/images/panorama.jpg') repeat scroll center center / cover transparent;
+	text-align: center;
+	min-height:400px;
+}
+
+.logo{
+	height: 180px;
+}
+
+.footer{
+	    background-color: #141414;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}

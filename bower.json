@@ -1,0 +1,6 @@
+{
+  "name": "BB",
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
