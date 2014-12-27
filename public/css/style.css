@@ -1,3 +1,12 @@
+/*
+#ff921f
+#feb950
+#704700
+#8a773c
+
+*/
+
+
 html {
     position: relative;
     min-height: 100%;
@@ -6,7 +15,11 @@ body {
     font: 13px/26px "Open Sans",sans-serif;
     color: #595757;
     text-align: center;
-    padding-bottom: 200px;
+    padding-bottom: 196px;
+}
+section{
+	padding-top:30px;
+	padding-bottom:30px;
 }
 section.header{
 	background: url('/images/panorama.jpg') repeat scroll center center / cover transparent;
@@ -15,7 +28,7 @@ section.header{
 }
 
 .logo{
-	height: 180px;
+	height: 150px;
 }
 
 .footer{
@@ -25,4 +38,65 @@ section.header{
     position: absolute;
     bottom: 0px;
     width: 100%;
+}
+
+#navigation{
+	background-color:#8a773c;
+}
+#navigation .btn{
+	color:#fff;
+		font-size:20px;
+}
+#todo{
+	background-color: #704700;
+	 color:#fff;
+	 	border-bottom:16px solid #8a773c;
+}
+
+#about-carousel img{
+	height:600px;
+	width:100%;
+}
+#eco{
+	background-color:#feb950;
+	border-top:16px solid #8a773c;
+	border-bottom:16px solid #8a773c;
+}
+#eco .list{
+	text-align:right;
+}
+#eco li{
+	list-style:none;
+}
+#eco .pic{
+	text-align:left;
+}
+#todo .list{
+	text-align:left;
+}
+#todo li{
+	list-style:none;
+}
+#todo .pic{
+	text-align:right;
+}
+#location{
+	background-color: #feb950;
+		border-bottom:16px solid #8a773c;
+}
+#bookings{
+		border-bottom:16px solid #8a773c;
+}
+#bookings .datepicker table{
+	font-size:18px;
+}
+
+#bookings .datepicker {
+	width:100%;
+}
+#bookings .datepicker td{
+	border-radius:0;
+}
+#bookings .datepicker .booked{
+	background-color:#FEB950;;
 }

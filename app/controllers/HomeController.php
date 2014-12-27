@@ -15,9 +15,13 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function showWelcome()
+	public function show()
 	{
-		return View::make('hello');
+		$files = array_map(function($str){
+			return str_replace('public/', '', $str);
+		},
+			File::files('public/images/carousel'));
+		return View::make('home')->with('images', $files);;
 	}
 
 }

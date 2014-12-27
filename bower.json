@@ -1,6 +1,7 @@
 {
   "name": "BB",
   "dependencies": {
-    "bootstrap": "~3.3.1"
+    "bootstrap": "~3.3.1",
+    "bootstrap-datepicker": "git://github.com/eternicode/bootstrap-datepicker.git"
   }
 }
