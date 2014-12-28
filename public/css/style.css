@@ -12,28 +12,33 @@ html {
     min-height: 100%;
 }
 body {
-    font: 13px/26px "Open Sans",sans-serif;
+    font: 14px/28px "Open Sans",sans-serif;
     color: #595757;
     text-align: center;
     padding-bottom: 196px;
+    background-color: #fafcfc;
 }
 section{
 	padding-top:60px;
 	padding-bottom:60px;
 }
-section.header{
+h2{
+	padding-bottom:20px;
+}
+
+.header{
 	background: url('/images/panorama.jpg') repeat scroll center center / cover transparent;
 	text-align: center;
-	min-height:400px;
+	min-height:500px;
 	padding-top:20px;
 }
 
 .logo{
-	height: 150px;
+	height: 200px;
 }
 
 .footer{
-	    background-color: #141414;
+	background-color: #141414;
     padding-top: 60px;
     padding-bottom: 60px;
     position: absolute;
@@ -46,17 +51,28 @@ section.header{
 }
 #navigation{
 	background-color:#8a773c;
-	padding-top:20px;
-	padding-bottom:20px;
+	padding-top:0;
+	padding-bottom:0;
 }
-#navigation .btn{
+
+#navigation a{
 	color:#fff;
-		font-size:20px;
+	font-size:20px;
+	height: 100%;
+	padding: 20px 20px;
+	display: inline-block;
 }
+
+#navigation a:hover{
+	background-color:#fafcfc;
+	color:#3d3d3d;
+	text-decoration: none;
+	transition: background-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
 #todo{
-	background-color: #704700;
-	 color:#fff;
-	 	border-bottom:16px solid #8a773c;
+	border-bottom:16px solid #8a773c;
 }
 
 #about-carousel img{
@@ -64,31 +80,20 @@ section.header{
 	width:100%;
 }
 #eco{
-	background-color:#feb950;
 	border-top:16px solid #8a773c;
 	border-bottom:16px solid #8a773c;
 }
-#eco .list{
-	text-align:right;
-}
+
 #eco li{
 	list-style:none;
 }
-#eco .pic{
-	text-align:left;
-}
-#todo .list{
-	text-align:left;
-}
+
 #todo li{
 	list-style:none;
 }
-#todo .pic{
-	text-align:right;
-}
+
 #location{
-	background-color: #feb950;
-		border-bottom:16px solid #8a773c;
+	border-bottom:16px solid #8a773c;
 }
 #bookings{
 		border-bottom:16px solid #8a773c;
@@ -104,5 +109,28 @@ section.header{
 	border-radius:0;
 }
 #bookings .datepicker .booked{
-	background-color:#FEB950;;
+	background-color: rgb(255, 97, 91);
+	color: #FFF;
+}
+
+#bookings .datepicker table td.active{
+	background-color:none;
+}
+
+
+
+@media only screen and (min-width : 1200px) {
+
+	#eco .pic{
+		text-align:left;
+	}
+	#todo .list{
+		text-align:left;
+	}
+	#todo .pic{
+		text-align:right;
+	}
+	#eco .list{
+		text-align:right;
+	}
 }

@@ -16,6 +16,9 @@ $(document).ready(function(){
 			return '';
 		}
 	})
+	$('.calendar').on('changeDate', function(e){
+		$('.calendar .active').removeClass('active')
+	})
 	.find('.table-condensed')
 	.removeClass('table-condensed')
 	.addClass('table');

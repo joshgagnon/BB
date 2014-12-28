@@ -9,19 +9,19 @@
 
 <section id="navigation">
 <div class="container">
-	<a href="#about" class="btn">About Our Home</a>
-	<a href="#eco" class="btn">Eco Features</a>
-	<a href="#todo" class="btn">Things to do</a>
-	<a href="#location" class="btn">Location</a>
-	<a href="#location" class="btn">Bookings</a>
+	<a href="#about" class="">About Our Home</a>
+	<a href="#eco" class="">Eco Features</a>
+	<a href="#todo" class="">Things To Do</a>
+	<a href="#location" class="">Location</a>
+	<a href="#location" class="">Bookings</a>
 </div>
 </section>
 
 <section id="about">
 <div class="container">
 <h2>About Our Home</h2>
-Located at the top of the South Island of New Zealand, our contemporary country home blah blah something about awarding winning Galeo Estate
-
+<p>Located at the top of the South Island of New Zealand, our contemporary country home blah blah something about awarding winning Galeo Estate
+</p>
  @include('partials.carousel', array('images' => $images))
  </div>
 </section>
@@ -87,6 +87,9 @@ Located at the top of the South Island of New Zealand, our contemporary country 
 <section id="bookings">
 <div class="container">
 	<h2>Bookings Calendar</h2>
+	<p>
+		Browse through the calendar below to see available dates, then email us at <a href="mailto:redvaleridge@gmail.com">redvaleridge@gmail.com</a>
+	</p>
 	<div class="calendar">
 	</div>
 </div>

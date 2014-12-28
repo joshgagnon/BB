@@ -50,8 +50,8 @@
 	<a href="tel:+64035446478">+64 03 544 6478
 	</a>
 	Email -
-	<a href="mailto:mail@example.nz">
-    	mail@example.nz
+	<a href="mailto:redvaleridge@gmail.com">
+    	redvaleridge@gmail.com
 	</a>
 </div>
 <div class="copyright-info">
