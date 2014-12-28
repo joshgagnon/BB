@@ -8,10 +8,66 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/hello.php",
+			"file": "app/views/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 7679,
+				"buffer_size": 2761,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/routes.php",
+			"settings":
+			{
+				"buffer_size": 1351,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/main.js",
+			"settings":
+			{
+				"buffer_size": 1143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/database/migrations/2014_12_28_013347_create_bookings_table.php",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/database/migrations/2014_12_28_013913_remember_token.php",
+			"settings":
+			{
+				"buffer_size": 381,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/bower/bootstrap-datepicker/js/bootstrap-datepicker.js",
+			"settings":
+			{
+				"buffer_size": 47205,
 				"line_ending": "Unix"
 			}
 		}
@@ -19,9 +75,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 201.0,
+		"height": 138.0,
 		"selected_items":
 		[
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"inde",
 				"Indentation: Reindent Lines"
@@ -31,7 +91,7 @@
 				"Set Syntax: XML"
 			]
 		],
-		"width": 392.0
+		"width": 440.0
 	},
 	"console":
 	{
@@ -49,8 +109,88 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/josh/BB",
+		"/home/josh/BB/app",
+		"/home/josh/BB/app/config",
+		"/home/josh/BB/app/controllers",
+		"/home/josh/BB/app/models",
+		"/home/josh/BB/app/views",
+		"/home/josh/BB/app/views/partials",
+		"/home/josh/BB/public"
+	],
 	"file_history":
 	[
+		"/home/josh/BB/app/database/migrations/2014_12_28_013347_create_bookings_table.php",
+		"/home/josh/BB/app/database/migrations/2014_12_28_013913_remember_token.php",
+		"/home/josh/BB/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php",
+		"/home/josh/BB/public/bower/bootstrap-datepicker/docs/_screenshots/markup_inline.html",
+		"/home/josh/BB/app/database/migrations/2014_12_28_005646_create_users_table.php",
+		"/home/josh/BB/app/models/Bookings.php",
+		"/home/josh/BB/app/views/manage.blade.php",
+		"/home/josh/BB/app/controllers/HomeController.php",
+		"/home/josh/BB/public/css/style.css",
+		"/home/josh/BB/app/config/database.php",
+		"/home/josh/BB/public/bower/bootstrap/less/jumbotron.less",
+		"/home/josh/BB/vendor/swiftmailer/swiftmailer/doc/japanese.rst",
+		"/home/josh/BB/public/bower/jquery/src/attributes/val.js",
+		"/home/josh/BB/public/bower/jquery/src/ajax/xhr.js",
+		"/home/josh/BB/vendor/nesbot/carbon/tests/SubTest.php",
+		"/home/josh/BB/vendor/laravel/framework/src/Illuminate/Database/Eloquent/MassAssignmentException.php",
+		"/home/josh/BB/public/bower/bootstrap-datepicker/js/bootstrap-datepicker.js",
+		"/home/josh/BB/CONTRIBUTING.md",
+		"/home/josh/BB/public/bower/bootstrap/less/component-animations.less",
+		"/home/josh/BB/public/bower/jquery/src/callbacks.js",
+		"/home/josh/BB/public/bower/bootstrap-datepicker/tests/suites/calendar-weeks.js",
+		"/home/josh/BB/public/bower/bootstrap/less/bootstrap.less",
+		"/home/josh/BB/app/views/partials/dates.blade.php",
+		"/home/josh/BB/app/views/layouts/master.blade.php",
+		"/home/josh/BB/server.php",
+		"/home/josh/BB/vendor/symfony/security-core/Symfony/Component/Security/Core/Authentication/Token/RememberMeToken.php",
+		"/home/josh/BB/app/config/remote.php",
+		"/home/josh/BB/public/bower/bootstrap/less/responsive-embed.less",
+		"/home/josh/BB/app/views/partials/carousel.blade.php",
+		"/home/josh/BB/app/database/seeds/DatabaseSeeder.php",
+		"/home/josh/BB/app/views/login.blade.php",
+		"/home/josh/BB/public/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ka.js",
+		"/home/josh/BB/app/controllers/login.blade.php",
+		"/home/josh/BB/app/database/seeds/UserSeeder.php",
+		"/home/josh/BB/vendor/predis/predis/lib/Predis/ResponseObjectInterface.php",
+		"/home/josh/BB/readme.md",
+		"/home/josh/BB/app/database/migrations/.gitkeep",
+		"/home/josh/BB/vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php",
+		"/home/josh/BB/vendor/laravel/framework/src/Illuminate/Database/SeedServiceProvider.php",
+		"/home/josh/BB/vendor/laravel/framework/src/Illuminate/Database/Seeder.php",
+		"/home/josh/BB/vendor/symfony/css-selector/Symfony/Component/CssSelector/Exception/SyntaxErrorException.php",
+		"/home/josh/BB/vendor/predis/predis/lib/Predis/ServerException.php",
+		"/home/josh/BB/app/config/auth.php",
+		"/home/josh/BB/bootstrap/autoload.php",
+		"/home/josh/BB/vendor/symfony/routing/Symfony/Component/Routing/Matcher/ApacheUrlMatcher.php",
+		"/home/josh/BB/app/config/app.php",
+		"/home/josh/BB/app/routes.php",
+		"/home/josh/BB/public/bower/bootstrap-datepicker/less/datepicker3.less",
+		"/home/josh/BB/public/bower/bootstrap-datepicker/css/datepicker3.css",
+		"/home/josh/BB/public/bower/bootstrap-datepicker/less/datepicker.less",
+		"/home/josh/BB/public/bower/bootstrap-datepicker/css/datepicker.css",
+		"/home/josh/BB/vendor/symfony/finder/Symfony/Component/Finder/Comparator/DateComparator.php",
+		"/home/josh/BB/public/bower/bootstrap-datepicker/tests/suites/data-api.js",
+		"/home/josh/BB/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php",
+		"/home/josh/BB/public/bower/jquery/src/var/hasOwn.js",
+		"/home/josh/BB/public/bower/jquery/dist/jquery.min.js",
+		"/home/josh/BB/public/bower/jquery/dist/jquery.js",
+		"/home/josh/BB/public/bower/jquery/src/wrap.js",
+		"/home/josh/BB/public/bower/jquery/bower.json",
+		"/home/josh/BB/vendor/predis/predis/lib/Predis/Command/SetPop.php",
+		"/home/josh/BB/vendor/symfony/process/Symfony/Component/Process/PhpProcess.php",
+		"/home/josh/BB/vendor/composer/autoload_psr4.php",
+		"/home/josh/BB/artisan",
+		"/home/josh/BB/vendor/predis/predis/lib/Predis/Cluster/Distribution/DistributionStrategyInterface.php",
+		"/home/josh/BB/vendor/predis/predis/examples/DispatcherLoop.php",
+		"/home/josh/BB/vendor/d11wtq/boris/lib/Boris/DumpInspector.php",
+		"/home/josh/BB/bower.json",
+		"/home/josh/BB/app/.bowerrc",
+		"/home/josh/BB/app/bower.json",
 		"/home/josh/nzlawapi/readXML.py",
 		"/home/josh/nzlawapi/tests/section47.xml",
 		"/home/josh/nzlawapi/tests/section47.html",
@@ -59,7 +199,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -73,6 +213,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"trigger",
+			"Home",
+			"daysoft",
+			"td",
 			"f"
 		],
 		"highlight": true,
@@ -91,24 +235,138 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/hello.php",
+					"file": "app/views/home.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7679,
+						"buffer_size": 2761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								192
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/database/migrations/2014_12_28_013347_create_bookings_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -116,11 +374,98 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/database/migrations/2014_12_28_013913_remember_token.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/bower/bootstrap-datepicker/js/bootstrap-datepicker.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32427,
+								32427
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 19148.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -132,7 +477,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -172,6 +517,66 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"migrations",
+				"app/database/migrations/2014_12_28_013347_create_bookings_table.php"
+			],
+			[
+				"migrations/",
+				"app/database/migrations/2014_12_28_013347_create_bookings_table.php"
+			],
+			[
+				"datepicker",
+				"public/bower/bootstrap-datepicker/js/bootstrap-datepicker.js"
+			],
+			[
+				"main",
+				"public/js/main.js"
+			],
+			[
+				"style",
+				"public/css/style.css"
+			],
+			[
+				"remember",
+				"app/database/migrations/2014_12_28_013913_remember_token.php"
+			],
+			[
+				"booking",
+				"app/database/migrations/2014_12_28_013347_create_bookings_table.php"
+			],
+			[
+				"route",
+				"app/routes.php"
+			],
+			[
+				"routes",
+				"app/routes.php"
+			],
+			[
+				"datab",
+				"app/config/database.php"
+			],
+			[
+				"data",
+				"app/config/database.php"
+			],
+			[
+				"auth",
+				"app/config/auth.php"
+			],
+			[
+				"homecon",
+				"app/controllers/HomeController.php"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"app",
+				"app/config/app.php"
+			]
 		],
 		"width": 0.0
 	},
@@ -196,10 +601,10 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 276.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

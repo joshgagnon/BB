@@ -18,13 +18,14 @@ body {
     padding-bottom: 196px;
 }
 section{
-	padding-top:30px;
-	padding-bottom:30px;
+	padding-top:60px;
+	padding-bottom:60px;
 }
 section.header{
 	background: url('/images/panorama.jpg') repeat scroll center center / cover transparent;
 	text-align: center;
 	min-height:400px;
+	padding-top:20px;
 }
 
 .logo{
@@ -40,8 +41,13 @@ section.header{
     width: 100%;
 }
 
+.footer .nav-links a{
+	padding:0 8px;
+}
 #navigation{
 	background-color:#8a773c;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 #navigation .btn{
 	color:#fff;

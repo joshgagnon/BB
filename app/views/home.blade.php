@@ -1,15 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Redvale Ridge B&B</title>
-	<link href="{{ asset('bower/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
-	<link href="{{ asset('bower/bootstrap-datepicker/css/datepicker.css') }}" rel="stylesheet">
-	<link href="{{ asset('css/style.css') }}" rel="stylesheet">
-
-</head>
-<body>
-
+@extends('layouts.master')
+@section('title')
+@parent
+@stop
+@section('content')
 <section class="container-fluid header">
 	<img class="logo" src="{{ asset('images/lawfirmstylefancy.png') }}" alt="Redvale Ridge B&B">
 </section>
@@ -98,34 +91,4 @@ Located at the top of the South Island of New Zealand, our contemporary country 
 	</div>
 </div>
 </section>
-<section id="footer" class="footer">
-<div class="container">
-<div class="nav-links">
-	<a href="#about" >About the House</a>
-	<a href="#eco" >Eco Features</a>
-	<a href="#todo" >Things to do</a>
-	<a href="#location" >Location</a>
-	<a href="#bookings" >Bookings</a>
-
-</div>
-<div class="contact-info">
-	Telephone - 
-	<a href="tel:+64035446478">+64 03 544 6478
-	</a>
-	Email -
-	<a href="mailto:mail@example.nz">
-    	mail@example.nz
-	</a>
-</div>
-<div class="copyright-info">
-		©Copyright 2015 Joshua Gagnon
-</div>
-</div>
-</section>
-
-<script src="{{ asset('bower/jquery/dist/jquery.min.js') }}"></script>
-<script src="{{ asset('bower/bootstrap/dist/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('/bower/bootstrap-datepicker/js/bootstrap-datepicker.js') }}"></script>
-<script src="{{ asset('js/main.js') }}"></script>
-</body>
-</html>
+@stop
