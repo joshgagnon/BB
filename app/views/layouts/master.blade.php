@@ -7,7 +7,7 @@
 		Redvale Ridge B&B
 		@show
 		</title>
-		<meta name="description" content="bla blah">
+		<meta name="description" content="Join us at our beautiful contemporary country home, which incorporates many eco features, and enjoy the stunning views and myriad things to see and do.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -46,7 +46,7 @@
 
 
 <div class="contact-info">
-	Telephone - 
+	Telephone -
 	<a href="tel:+64035446478">+64 03 544 6478
 	</a>
 	Email -

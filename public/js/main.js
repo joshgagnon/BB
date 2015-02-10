@@ -6,7 +6,7 @@ $(document).ready(function(){
 		format: 'dd/mm/yyyy',
 		beforeShowDay: function(date){
 			var date_str = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
-		
+
 			if(booked_dates.indexOf(date_str) !== -1){
 				if(manage_mode){
 					return 'booked';
@@ -48,4 +48,16 @@ $(document).ready(function(){
     	});
 	}
 
+
+
+	$('#about-carousel').on("slide.bs.carousel", function(e) {
+		var $tar = $(e.relatedTarget)
+		$tar.prev().add($tar.next()).add($tar).find('img[lazy-load-src]')
+			.each(function(){
+				$(this).attr('src', $(this).attr('lazy-load-src'));
+				$(this).removeAttr('lazy-load-src');
+			})
+
+
+    });
 })

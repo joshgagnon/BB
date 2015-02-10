@@ -9,45 +9,139 @@
 
 <section id="navigation">
 <div class="container">
-	<a href="#about" class="">About Our Home</a>
-	<a href="#eco" class="">Eco Features</a>
+	<a href="#about" class="">About</a>
+	<a href="#house" class="">The Home</a>
+	<a href="#rooms" class="">Rooms & Rates</a>
 	<a href="#todo" class="">Things To Do</a>
+	<a href="#hosts" class="">Hosts</a>
+	<a href="#food" class="">Food</a>
 	<a href="#location" class="">Location</a>
-	<a href="#location" class="">Bookings</a>
+	<a href="#bookings" class="">Bookings</a>
 </div>
 </section>
 
 <section id="about">
 <div class="container">
-<h2>About Our Home</h2>
-<p>Located at the top of the South Island of New Zealand, our contemporary country home blah blah something about awarding winning Galeo Estate
+<h2>Redvale Ridge Bed and Breakfast</h2>
+<p>Our home situated at 114 Redvale Rd, in the award winning GALEO Estate is a contemporary
+country home, which blends in aesthetically with the environment. In building our home we
+thought about health, well-being and impact on the environment so incorporated many eco
+features. The views from our home are simply stunning, taking in the Western Ranges,
+Tasman Bay out to D’Urville Island and at night the twinkling lights of Nelson.</p>
+<p>Being between the thriving town of Richmond and the beautiful coastal village of Mapua, we
+are surrounded by wineries, breweries, artists and food producers and are close to the
+popular coastal section of the Tasman Great Taste Trail and the beautiful Moturoa/Rabbit
+Island Beach and Recreation area. We are also centrally located between Nelson and Motueka
+– approximately 20 mins to each.</p>
+<p>Our rural sub-division is known for its bird life and here you will see Pukeko, quail, ducks,
+plover, swallows, kingfisher, low flying hawks and in increasing numbers our wonderful
+native birds such as the fantail and tui.</p>
+<p>There are a number of cafes and restaurants within a short distance including the wonderful
+Playhouse Café and Theatre. We also offer an optional local tasting platter on the night of
+arrival.</p>
+<p>We are happy to share with you our love of New Zealand and especially the south island and
+help you make plans for all the wonderful things to do and see in this area; we can also assist
+with bookings.
 </p>
  @include('partials.carousel', array('images' => $images))
  </div>
 </section>
 
-<section id="eco">
+<section id="house">
 <div class="container">
-<h2>Eco Features</h2>
+<h2>The Home</h2>
 <div class="row">
-<div class="col-lg-6 list">
+<p>Built in 2012 our home is a large, one level dwelling with two purpose built B&B rooms on the
+eastern side. The house incorporates many eco features, which are:</p>
 <ul>
 <li>Passive solar, thermally and energy efficient design</li>
+
 <li>Thermally broken throughout the building envelope</li>
+
 <li>Hybrid systems which includes power and water automated management</li>
+
 <li>Solar panels for hot water and power</li>
+
 <li>Non toxic building materials</li>
+
+<li>Recycled Blue Gum wallboards</li>
+
 <li>Uprated natural wool insulation</li>
+
 <li>Low VOC paint and finishes</li>
+
 <li>Energy efficient lighting and appliances</li>
+
 <li>Recycled glass bottle carpet in bedrooms</li>
+
+<li>Pellet fire and panel heaters for heating when required</li>
 </ul>
+<p>Guests have their own parking area and entrance allowing for autonomy when needed. There
+are a number of seating areas outside for relaxing and taking in the stunning views.  Our spa is
+great to sit in at night where you can gaze at the twinkling night sky or the lights of Nelson. </p>
+<p>Our home is full of beautiful art work in many mediums, a lot of which has been bought in the
+‘top of the south’. We have a number of beautiful books on New Zealand, which are lovely to
+sit and relax with and we have a number of board games to have fun with.</p>
+<p>
+Our garden is a large developing one.  At the front of the house there is a beautiful border
+garden broken by an outdoor seating and fire area. In different areas around the house there
+are natives, fruit trees, raised vegetable and herb gardens and a camellia hedge. The gully part
+of the section contains mostly native shrubs, trees and grasses.</p>
 </div>
 <div class="col-lg-6 pic">
-<img src="http://d2o96h7uki1rfu.cloudfront.net/wp-content/uploads/traditional-solar-panels.jpg" height="250"/>
+
 </div>
 </div>
 
+</section>
+
+<section id="rooms">
+<div class="container">
+<h2>B&B Rooms and Rates</h2>
+<div class="row">
+<p>There are two large luxurious rooms, one with a King bed and one with a Queen.</p>
+
+<p>Each room has:</p>
+<ul>
+<li>Beautiful ensuites</li>
+
+<li>Comfortable, supportive beds</li>
+
+<li>Bamboo sheets and pillowcases</li>
+
+<li>Handmade bedcovers</li>
+
+<li>Table and chairs</li>
+
+<li>32” Samsung TV</li>
+
+<li>DVD player with a selection of DVDs</li>
+
+<li>CD/USB stereo system</li>
+
+<li>Clock radio</li>
+
+<li>Tea and coffee facilities with freshly ground coffee daily</li>
+
+<li>Small fridge</li>
+
+<li>Wardrobe and luggage racks</li>
+
+<li>Outdoor table and chairs</li>
+
+<li>Original artwork</li>
+
+<li>Free WiFi</li>
+</ul>
+<p>
+*One load of washing included during stay.
+
+Rates: $180-$195 per night.
+
+Payment: Internet Banking, Visa and Mastercard
+</p>
+</div>
+</div>
 </section>
 
 <section id="todo">
@@ -58,24 +152,75 @@
 <img src="http://www.backexperts.co.uk/media/531018/istock_000009408475small.jpg" height="300"/>
 </div>
 <div class="col-lg-6 list">
+<p>Below are just some of the things to do in this area. </p>
 <ul>
-<li>The Great Taste Trail</li>
-<li>Wineries (25) and Wine Tours</li>
-<li>Beer and Craft Breweries (24)</li>
-<li>Southern Wilderness Gourmet Guided Walks</li>
-<li>Art/Craft/Pottery Trail</li>
-<li>Boating and Kayaking</li>
-<li>Abel Tasman Excursions</li>
+
+<li>Cycling: The Great Taste Trail <a href="www.trailjourneys.co.nz/nelson">www.trailjourneys.co.nz/nelson</a>
+
+<a href="www.gentlecycling.co.nz">www.gentlecycling.co.nz</a></li>
+
+<li>Wineries (25) and Wine Tours www.baytoursnelson.co.nz <a href="www.nelsonwineart.co.nz">www.nelsonwineart.co.nz</a></li>
+
+<li>Beer and Craft Breweries <a href="www.craftbrewingcapital.co.nz">www.craftbrewingcapital.co.nz</a></li>
+
+<li>Art/Craft/Pottery Trails <a href="www.rubycoastarts.co.nz">www.rubycoastarts.co.nz</a></li>
+
+<li>Boating and Kayaking <a href="www.abeltasmanseashuttles.co.nz">www.abeltasmanseashuttles.co.nz</a></li>
+
+<li>Abel Tasman Excursions <a href="www.abeltasman.co.nz">www.abeltasman.co.nz</a></li>
+
+<li>Mapua Ferry <a href="www.mapuaferry.co.nz">www.mapuaferry.co.nz</a></li>
+
 <li>Tramping</li>
-<li>Fishing</li>
-<li>Golfing</li>
-<li>Walks</li>
-<li>Horse Riding</li>
+
+<li>Fishing: Sea and River</li>
+
+<li>Golfing: A number of courses within a short distance. We have a male and female set of clubs.</a></li>
+
+<li>Walks</a></li>
+
+<li>Happy Valley Adventures <a href="www.happtvalleyadventures.co.nz">www.happtvalleyadventures.co.nz</a></li>
+
+<li>Horse Riding <a href="www.blackbirdvly.co.nz">www.blackbirdvly.co.nz</a></li>
+
 <li>Beaches</li>
+
+<li>Markets <a href="www.nelsonmarket.co.nz">www.nelsonmarket.co.nz</a></li>
+
+<li>Shopping: Richmond and Nelson both offer great shopping.</li>
 </ul>
 </div>
 </div>
 </section>
+
+<section id="hosts">
+<div class="container">
+<h2>Hosts</h2>
+
+<p>Barbara and Fraser came from the bottom of the south, where they farmed, to the top of the
+south over 16 years ago. Fraser works for Transfield Services during the week and Barbara
+works 1-2 nights at a local restaurant. The enjoy: developing and maintaining their large
+garden, being involved with a local theatre group, art, music, food, reading, travelling and
+meeting new people. Their son lives in Dunedin and their daughter lives in Perth.</p>
+<p>Their two Birman cats Sundance and Coco are part of the family, but are not allowed in the
+B&B wing of the house.</p>
+</div>
+</section>
+
+<section id="food">
+<div class="container">
+<h2>Food</h2>
+
+<p>Choice of continental or full cooked breakfast. All dietary needs catered for.
+
+Freshly baked muffins daily.</p>
+
+<div>Optional: Local tasting platter on arrival $25.</div>
+</div>
+</section>
+
+
+
 
 <section id="location">
 <div class="container">

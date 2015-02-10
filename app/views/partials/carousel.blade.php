@@ -6,18 +6,17 @@
     <li data-target="#about-carousel" data-slide-to="{{ $i }}"></li>
     @endfor
   </ol>
- 
+
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
   @foreach($images as $image)
- 
       <div class="item {{{ $image == $images[0] ?  'active' : '' }}}">
-        <img src="{{ asset($image) }}" alt="..." >
+        <img {{{ $image == $images[0] ?  'src' : 'lazy-load-src' }}}="{{ asset($image) }}" alt="..." >
         <div class="carousel-caption">
-      
+
         </div>
       </div>
-   
+
     @endforeach
    </div>
   <!-- Controls -->
