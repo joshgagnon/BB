@@ -17,11 +17,10 @@ class HomeController extends BaseController {
 
 	public function show()
 	{
-		$files = array_map(function($str){
+		$banner = array_map(function($str){
 			return str_replace('public/', '', $str);
-		},
-		File::files('public/images/carousel'));
-		return View::make('home', array('images' => $files));
+		}, File::files('public/images/banner_opt'));
+		return View::make('home', array('banner' => $banner));
 	}
 
 	public function doLogin()
@@ -57,9 +56,9 @@ class HomeController extends BaseController {
 		        // for now we'll just echo success (even though echoing in a controller is bad)
 		        return Redirect::to('manage');
 
-		    } else {        
+		    } else {
 
-		        // validation not successful, send back to form 
+		        // validation not successful, send back to form
 		        return Redirect::to('login');
 
 		    }

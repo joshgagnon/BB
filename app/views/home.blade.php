@@ -4,22 +4,92 @@
 @stop
 @section('content')
 <section class="container-fluid header">
+	 @include('partials.carousel', array('images' => $banner))
 	<img class="logo" src="{{ asset('images/lawfirmstylefancy.png') }}" alt="Redvale Ridge B&B">
 </section>
 
-<section id="navigation">
+<!--<section id="navigation">
 <div class="container">
-	<a href="#about" class="">About</a>
 	<a href="#house" class="">The Home</a>
 	<a href="#rooms" class="">Rooms & Rates</a>
 	<a href="#todo" class="">Things To Do</a>
 	<a href="#hosts" class="">Hosts</a>
 	<a href="#food" class="">Food</a>
-	<a href="#location" class="">Location</a>
-	<a href="#bookings" class="">Bookings</a>
+</div>
+</section>-->
+<section id="pew">
+<div class="container">
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="menu-box">
+			<div class="image-box home-box">
+
+			</div>
+			<div class="text-box">
+				The Home
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="menu-box">
+			<div class="image-box room-box">
+
+			</div>
+			<div class="text-box">
+				Rooms & Rates
+			</div>
+		</div>
+	</div>
+
+
+	<div class="col-md-4">
+		<div class="menu-box">
+			<div class="image-box food-box">
+
+			</div>
+			<div class="text-box">
+				Food
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="menu-box">
+			<div class="image-box thingstodo-box">
+
+			</div>
+			<div class="text-box">
+				Things To Do
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="menu-box">
+			<div class="image-box aboutus-box">
+
+			</div>
+			<div class="text-box">
+				About Us
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="menu-box">
+			<div class="image-box location-box">
+
+			</div>
+			<div class="text-box">
+				Location & Bookings
+			</div>
+		</div>
+	</div>
+
 </div>
 </section>
-
+@if(false)
 <section id="about">
 <div class="container">
 <h2>Redvale Ridge Bed and Breakfast</h2>
@@ -239,4 +309,6 @@ Freshly baked muffins daily.</p>
 	</div>
 </div>
 </section>
+-->
+@endif
 @stop

@@ -12,7 +12,7 @@ html {
     min-height: 100%;
 }
 body {
-    font: 14px/28px "Open Sans",sans-serif;
+
     color: #595757;
     padding-bottom: 196px;
     background-color: #fafcfc;
@@ -26,19 +26,29 @@ h2{
 }
 
 .header{
-	background: url('/images/goodpano.jpg') repeat scroll center center / cover transparent;
+
 	text-align: center;
 	min-height:500px;
 	padding-top:20px;
 }
-
-.logo{
+.header .carousel{
+	margin:-20px -15px 0 -15px;
+}
+.header .bg-image{
+	height:100%;
+	width:100%;
+	background: url('') scroll center center / cover transparent;
+	min-height:500px;
+}
+.header .logo{
 	height: 200px;
+	position:absolute;
+	z-index:10;
 }
 
 .footer{
 	text-align:center;
-	background-color: #141414;
+	background-color: rgba(153, 159, 166, 1);
     padding-top: 60px;
     padding-bottom: 60px;
     position: absolute;
@@ -48,9 +58,43 @@ h2{
 
 .footer .nav-links a{
 	padding:0 8px;
+	color:white;
+}
+
+
+.menu-box{
+	margin-bottom:40px;
+}
+.menu-box .text-box{
+	padding: 20px;
+	background-color: #E8E8E8;
+	color: rgb(132, 99, 87);
+	font-size: 20px;
+}
+
+.menu-box .image-box{
+	height:300px;
+}
+.home-box{
+	background: url('/images/house_opt/A41W0301.jpg') repeat scroll center center / cover transparent;
+}
+.food-box{
+	background: url('/images/food_opt/IMG_3578.JPG') repeat scroll center center / cover transparent;
+}
+.room-box{
+	background: url('/images/rooms_opt/A41W7514.jpg') repeat scroll center center / cover transparent;
+}
+.aboutus-box{
+	background: url('/images/house_opt/A41W7563.jpg') repeat scroll center center / cover transparent;
+}
+.thingstodo-box{
+	background: url('/images/thingstodo_opt/IMG_3658.jpg') repeat scroll center center / cover transparent;
+}
+.location-box{
+	background: url('/images/thingstodo_opt/IMG_3682.jpg') repeat scroll center center / cover transparent;
 }
 #navigation{
-	background-color:#DAD3BC;
+	background-color:rgba(255, 234, 218, 1);
 	padding-top:0;
 	padding-bottom:0;
 }
@@ -133,4 +177,56 @@ h2{
 	#eco .list{
 		text-align:right;
 	}
+}
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
 }

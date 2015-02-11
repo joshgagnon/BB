@@ -50,11 +50,12 @@ $(document).ready(function(){
 
 
 
-	$('#about-carousel').on("slide.bs.carousel", function(e) {
+	$('.carousel').on("slide.bs.carousel", function(e) {
 		var $tar = $(e.relatedTarget)
-		$tar.prev().add($tar.next()).add($tar).find('img[lazy-load-src]')
+		$tar.prev().add($tar.next()).add($tar).find('.bg-image[lazy-load-src]')
 			.each(function(){
-				$(this).attr('src', $(this).attr('lazy-load-src'));
+				//$(this).attr('src', $(this).attr('lazy-load-src'));
+				$(this).css('background-image', 'url('+$(this).attr('lazy-load-src')+")");
 				$(this).removeAttr('lazy-load-src');
 			})
 
