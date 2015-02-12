@@ -18,13 +18,13 @@ class HomeController extends BaseController {
 	public function show()
 	{
 		$rep = function($str){
-			return str_replace('public/', '', $str);
+			return str_replace(public_path() .'/', '', $str);
 		};
-		$banner = array_map($rep, File::files('public/images/banner_opt'));
-		$rooms = array_map($rep, File::files('public/images/rooms_opt'));
-		$house = array_map($rep, File::files('public/images/house_opt'));
-		$thingstodo = array_map($rep, File::files('public/images/thingstodo_opt'));
-		$food = array_map($rep, File::files('public/images/food_opt'));
+		$banner = array_map($rep, File::files(public_path() .'/images/banner_opt'));
+		$rooms = array_map($rep, File::files(public_path() .'/images/rooms_opt'));
+		$house = array_map($rep, File::files(public_path() .'/images/house_opt'));
+		$thingstodo = array_map($rep, File::files(public_path() .'/images/thingstodo_opt'));
+		$food = array_map($rep, File::files(public_path() .'/images/food_opt'));
 		return View::make('home', array('banner' => $banner, 'rooms' => $rooms, 'house' => $house, 'thingstodo' => $thingstodo, 'food' => $food));
 	}
 
