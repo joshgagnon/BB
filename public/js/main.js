@@ -54,8 +54,12 @@ $(document).ready(function(){
 		var $tar = $(e.relatedTarget)
 		$tar.prev().add($tar.next()).add($tar).find('.bg-image[lazy-load-src]')
 			.each(function(){
-				//$(this).attr('src', $(this).attr('lazy-load-src'));
-				$(this).css('background-image', 'url('+$(this).attr('lazy-load-src')+")");
+				if($(this).is('img')){
+					$(this).attr('src', $(this).attr('lazy-load-src'));
+				}
+				else{
+					$(this).css('background-image', 'url('+$(this).attr('lazy-load-src')+")");
+				}
 				$(this).removeAttr('lazy-load-src');
 			})
 

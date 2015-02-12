@@ -4,7 +4,7 @@
 @stop
 @section('content')
 <section class="container-fluid header">
-	 @include('partials.carousel', array('images' => $banner))
+	 @include('partials.carousel', array('images' => $banner,'bg' => true))
 	<img class="logo" src="{{ asset('images/lawfirmstylefancy.png') }}" alt="Redvale Ridge B&B">
 </section>
 
@@ -17,11 +17,17 @@
 	<a href="#food" class="">Food</a>
 </div>
 </section>-->
-<section id="pew">
+<section id="intro">
+	<div class="container">
+		A beautiful, modern Bed & Breakfast tucked away near Nelson, New Zealand
+	</div>
+</section>
+<section id="main-menu">
 <div class="container">
 
 <div class="row">
 	<div class="col-md-4">
+		<a href="#home-head">
 		<div class="menu-box">
 			<div class="image-box home-box">
 
@@ -30,8 +36,10 @@
 				The Home
 			</div>
 		</div>
+		</a>
 	</div>
 	<div class="col-md-4">
+		<a href="#room-head">
 		<div class="menu-box">
 			<div class="image-box room-box">
 
@@ -40,10 +48,12 @@
 				Rooms & Rates
 			</div>
 		</div>
+		</a>
 	</div>
 
 
 	<div class="col-md-4">
+			<a href="#food-head">
 		<div class="menu-box">
 			<div class="image-box food-box">
 
@@ -52,9 +62,11 @@
 				Food
 			</div>
 		</div>
+			</a>
 	</div>
 
 	<div class="col-md-4">
+			<a href="#todo-head">
 		<div class="menu-box">
 			<div class="image-box thingstodo-box">
 
@@ -63,9 +75,11 @@
 				Things To Do
 			</div>
 		</div>
+			</a>
 	</div>
 
 	<div class="col-md-4">
+			<a href="#hosts-head">
 		<div class="menu-box">
 			<div class="image-box aboutus-box">
 
@@ -74,9 +88,11 @@
 				About Us
 			</div>
 		</div>
+			</a>
 	</div>
 
 	<div class="col-md-4">
+			<a href="#location-head">
 		<div class="menu-box">
 			<div class="image-box location-box">
 
@@ -85,14 +101,16 @@
 				Location & Bookings
 			</div>
 		</div>
+		</a>
 	</div>
 
 </div>
 </section>
-@if(false)
+
+
 <section id="about">
 <div class="container">
-<h2>Redvale Ridge Bed and Breakfast</h2>
+<h2 id="about-head">Redvale Ridge Bed and Breakfast</h2>
 <p>Our home situated at 114 Redvale Rd, in the award winning GALEO Estate is a contemporary
 country home, which blends in aesthetically with the environment. In building our home we
 thought about health, well-being and impact on the environment so incorporated many eco
@@ -113,14 +131,17 @@ arrival.</p>
 help you make plans for all the wonderful things to do and see in this area; we can also assist
 with bookings.
 </p>
- @include('partials.carousel', array('images' => $images))
  </div>
 </section>
 
 <section id="house">
 <div class="container">
-<h2>The Home</h2>
+<h2 id="home-head">The Home</h2>
 <div class="row">
+<div class="col-lg-6">
+	 @include('partials.carousel', array('images' => $house,'bg' => false))
+</div>
+<div class="col-lg-6">
 <p>Built in 2012 our home is a large, one level dwelling with two purpose built B&B rooms on the
 eastern side. The house incorporates many eco features, which are:</p>
 <ul>
@@ -158,17 +179,16 @@ garden broken by an outdoor seating and fire area. In different areas around the
 are natives, fruit trees, raised vegetable and herb gardens and a camellia hedge. The gully part
 of the section contains mostly native shrubs, trees and grasses.</p>
 </div>
-<div class="col-lg-6 pic">
 
-</div>
 </div>
 
 </section>
 
 <section id="rooms">
 <div class="container">
-<h2>B&B Rooms and Rates</h2>
+<h2 id="rooms-head">B&B Rooms and Rates</h2>
 <div class="row">
+<div class="col-lg-6">
 <p>There are two large luxurious rooms, one with a King bed and one with a Queen.</p>
 
 <p>Each room has:</p>
@@ -211,15 +231,19 @@ Rates: $180-$195 per night.
 Payment: Internet Banking, Visa and Mastercard
 </p>
 </div>
+<div class="col-lg-6">
+	 @include('partials.carousel', array('images' => $rooms,'bg' => false))
+</div>
+</div>
 </div>
 </section>
 
 <section id="todo">
 <div class="container">
-<h2>Things To Do</h2>
+<h2 id="todo-head">Things To Do</h2>
 <div class="row">
-<div class="col-lg-6 pic">
-<img src="http://www.backexperts.co.uk/media/531018/istock_000009408475small.jpg" height="300"/>
+<div class="col-lg-6">
+	 @include('partials.carousel', array('images' => $thingstodo,'bg' => false))
 </div>
 <div class="col-lg-6 list">
 <p>Below are just some of the things to do in this area. </p>
@@ -265,8 +289,10 @@ Payment: Internet Banking, Visa and Mastercard
 
 <section id="hosts">
 <div class="container">
-<h2>Hosts</h2>
-
+<div class="row">
+<div class="col-lg-6">
+<h2  id="hosts-head">Hosts</h2>
+<img class="logo" src="{{ asset('images/hosts.jpg') }}" width="100%" alt="The Hosts, Barbara & Fraser Grant">
 <p>Barbara and Fraser came from the bottom of the south, where they farmed, to the top of the
 south over 16 years ago. Fraser works for Transfield Services during the week and Barbara
 works 1-2 nights at a local restaurant. The enjoy: developing and maintaining their large
@@ -275,17 +301,18 @@ meeting new people. Their son lives in Dunedin and their daughter lives in Perth
 <p>Their two Birman cats Sundance and Coco are part of the family, but are not allowed in the
 B&B wing of the house.</p>
 </div>
-</section>
-
-<section id="food">
-<div class="container">
-<h2>Food</h2>
+<div class="col-lg-6">
+<h2  id="food-head">Food</h2>
 
 <p>Choice of continental or full cooked breakfast. All dietary needs catered for.
 
 Freshly baked muffins daily.</p>
 
 <div>Optional: Local tasting platter on arrival $25.</div>
+
+	@include('partials.carousel', array('images' => $food,'bg' => false))
+</div>
+</div>
 </div>
 </section>
 
@@ -294,21 +321,21 @@ Freshly baked muffins daily.</p>
 
 <section id="location">
 <div class="container">
-	<h2>Location</h2>
-<iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d1498.8526719733986!2d173.0710452869974!3d-41.2935169070187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d-41.293762799999996!2d173.07104529999998!5e0!3m2!1sen!2snz!4v1419639257787" width="600" height="450" frameborder="0" style="border:0"></iframe>
+<div class="row">
+<div class="col-lg-6">
+	<h2  id="location-head">Location</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d1498.8526719733986!2d173.0710452869974!3d-41.2935169070187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d-41.293762799999996!2d173.07104529999998!5e0!3m2!1sen!2snz!4v1419639257787" width="100%" height="450" frameborder="0" style="border:0"></iframe>
 </div>
-</section>
-
-<section id="bookings">
-<div class="container">
+<div class="col-lg-6"
 	<h2>Bookings Calendar</h2>
 	<p>
 		Browse through the calendar below to see available dates, then email us at <a href="mailto:redvaleridge@gmail.com">redvaleridge@gmail.com</a>
 	</p>
 	<div class="calendar">
 	</div>
+	</div>
 </div>
 </section>
--->
-@endif
+
+
 @stop

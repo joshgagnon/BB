@@ -17,10 +17,15 @@ class HomeController extends BaseController {
 
 	public function show()
 	{
-		$banner = array_map(function($str){
+		$rep = function($str){
 			return str_replace('public/', '', $str);
-		}, File::files('public/images/banner_opt'));
-		return View::make('home', array('banner' => $banner));
+		};
+		$banner = array_map($rep, File::files('public/images/banner_opt'));
+		$rooms = array_map($rep, File::files('public/images/rooms_opt'));
+		$house = array_map($rep, File::files('public/images/house_opt'));
+		$thingstodo = array_map($rep, File::files('public/images/thingstodo_opt'));
+		$food = array_map($rep, File::files('public/images/food_opt'));
+		return View::make('home', array('banner' => $banner, 'rooms' => $rooms, 'house' => $house, 'thingstodo' => $thingstodo, 'food' => $food));
 	}
 
 	public function doLogin()

@@ -10,16 +10,18 @@
 html {
     position: relative;
     min-height: 100%;
+
 }
 body {
 
     color: #595757;
     padding-bottom: 196px;
     background-color: #fafcfc;
+        font-family: 'Open Sans', sans-serif;
+    background-image: url(/images/confectionary.png);
 }
 section{
-	padding-top:60px;
-	padding-bottom:60px;
+
 }
 h2{
 	padding-bottom:20px;
@@ -34,16 +36,26 @@ h2{
 .header .carousel{
 	margin:-20px -15px 0 -15px;
 }
+
 .header .bg-image{
 	height:100%;
 	width:100%;
 	background: url('') scroll center center / cover transparent;
 	min-height:500px;
 }
-.header .logo{
-	height: 200px;
-	position:absolute;
-	z-index:10;
+
+.header .logo {
+max-width: 80%;
+max-height: 200px;
+position: absolute;
+z-index: 10;
+position: absolute;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+top: 20px;
+background-color: rgba(244, 244, 244, 0.53);
 }
 
 .footer{
@@ -56,7 +68,7 @@ h2{
     width: 100%;
 }
 
-.footer .nav-links a{
+.footer a{
 	padding:0 8px;
 	color:white;
 }
@@ -64,6 +76,9 @@ h2{
 
 .menu-box{
 	margin-bottom:40px;
+-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.25);
+-moz-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.25);
+box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.25);
 }
 .menu-box .text-box{
 	padding: 20px;
@@ -74,90 +89,49 @@ h2{
 
 .menu-box .image-box{
 	height:300px;
+		background-position:center center;
+	background-size:cover;
 }
 .home-box{
-	background: url('/images/house_opt/A41W0301.jpg') repeat scroll center center / cover transparent;
+	background-image: url('/images/house_opt/A41W0301.jpg');
+
 }
 .food-box{
-	background: url('/images/food_opt/IMG_3578.JPG') repeat scroll center center / cover transparent;
+	background-image: url('/images/food_opt/IMG_3578.JPG');
 }
 .room-box{
-	background: url('/images/rooms_opt/A41W7514.jpg') repeat scroll center center / cover transparent;
+	background-image:url('/images/rooms_opt/A41W7514.jpg') ;
 }
 .aboutus-box{
-	background: url('/images/house_opt/A41W7563.jpg') repeat scroll center center / cover transparent;
+	background-image: url('/images/house_opt/A41W7563.jpg') ;
 }
 .thingstodo-box{
-	background: url('/images/thingstodo_opt/IMG_3658.jpg') repeat scroll center center / cover transparent;
+	background-image: url('/images/thingstodo_opt/IMG_3658.jpg') ;
 }
 .location-box{
-	background: url('/images/thingstodo_opt/IMG_3682.jpg') repeat scroll center center / cover transparent;
+	background-image: url('/images/thingstodo_opt/IMG_3682.jpg') ;
 }
-#navigation{
-	background-color:rgba(255, 234, 218, 1);
-	padding-top:0;
-	padding-bottom:0;
-}
-
-#navigation a{
-	color:#777;
-	font-size:20px;
-	height: 100%;
-	padding: 20px 20px;
-	display: inline-block;
+#main-menu{
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
-#navigation a:hover{
-	background-color:#fafcfc;
-	color:#3d3d3d;
-	text-decoration: none;
-	transition: background-color 0.2s ease-in-out;
-	transition: color 0.2s ease-in-out;
-}
-
-#todo{
-	border-bottom:16px solid #8a773c;
-}
-
-#about-carousel img{
-	height:600px;
-	width:100%;
-}
-#eco{
-	border-top:16px solid #8a773c;
-	border-bottom:16px solid #8a773c;
-}
-
-#eco li{
-	list-style:none;
-}
-
-#todo li{
-	list-style:none;
-}
-
-#location{
-	border-bottom:16px solid #8a773c;
-}
-#bookings{
-		border-bottom:16px solid #8a773c;
-}
-#bookings .datepicker table{
+ .datepicker table{
 	font-size:18px;
 }
 
-#bookings .datepicker {
+ .datepicker {
 	width:100%;
 }
-#bookings .datepicker td{
+ .datepicker td{
 	border-radius:0;
 }
-#bookings .datepicker .booked{
+ .datepicker .booked{
 	background-color: rgb(255, 97, 91);
 	color: #FFF;
 }
 
-#bookings .datepicker table td.active{
+ .datepicker table td.active{
 	background-color:none;
 }
 
@@ -177,6 +151,15 @@ h2{
 	#eco .list{
 		text-align:right;
 	}
+}
+
+
+#intro{
+	background-color: #acd;
+	padding: 12px;
+		color:white;
+	font-size:20px;
+	text-align:center;
 }
 
 

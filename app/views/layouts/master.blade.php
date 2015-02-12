@@ -13,6 +13,7 @@
 
 	<link href="{{ asset('bower/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
 	<link href="{{ asset('bower/bootstrap-datepicker/css/datepicker.css') }}" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	<link href="{{ asset('css/style.css') }}" rel="stylesheet">
  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,11 +31,12 @@
   <section id="footer" class="footer">
 <div class="container">
 <div class="nav-links">
-	<a href="#about" >About the House</a>
-	<a href="#eco" >Eco Features</a>
-	<a href="#todo" >Things to do</a>
-	<a href="#location" >Location</a>
-	<a href="#bookings" >Bookings</a>
+	<a href="#home-head" >Th Home</a>
+	<a href="#rooms-head" >Rooms</a>
+	<a href="#todo-head" >Things to do</a>
+	<a href="#todo-hosts" >About Us</a>
+	<a href="#todo-head" >Things to do</a>
+	<a href="#location-head" >Location & Bookings</a>
 	 @if(!Auth::check())
 	{{ HTML::link('login', 'Login') }}
 	@else
@@ -63,6 +65,7 @@
 <script src="{{ asset('bower/jquery/dist/jquery.min.js') }}"></script>
 <script src="{{ asset('bower/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('/bower/bootstrap-datepicker/js/bootstrap-datepicker.js') }}"></script>
+<script src="{{ asset('js/smoothscroll.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
