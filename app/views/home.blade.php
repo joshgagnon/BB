@@ -39,7 +39,7 @@
 		</a>
 	</div>
 	<div class="col-md-4">
-		<a href="#room-head">
+		<a href="#rooms-head">
 		<div class="menu-box">
 			<div class="image-box room-box">
 

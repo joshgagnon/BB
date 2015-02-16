@@ -26,18 +26,18 @@ section{
 }
 section .container{
 	background-color: #FFFEF7;
-		padding-top:60px;
 	padding-bottom:60px;
 }
 h2{
 	padding-bottom:20px;
+	text-align: center;
+	background-color: #acd;
+	padding: 20px;
+	color: white;
+	margin:0;
 }
-h2 {
-text-align: center;
-background-color: #acd;
-padding: 20px;
-color: white;
-margin:0;
+.container .col-lg-6 h2{
+	margin:0 -15px;
 }
 .header{
 
@@ -48,14 +48,18 @@ margin:0;
 .header .carousel{
 	margin:-20px -15px 0 -15px;
 }
-
+.container .bg-image{
+	margin:0 auto 15px auto;
+}
 .header .bg-image{
 	height:100%;
 	width:100%;
 	background: url('') scroll center center / cover transparent;
 	min-height:500px;
 }
-
+p {
+margin-top: 15px;
+}
 .header .logo {
 max-width: 80%;
 max-height: 200px;
@@ -101,7 +105,9 @@ background-attachment: fixed;
 	color:white;
 }
 
-
+.col-md-4 a:hover{
+	text-decoration: none;
+}
 .menu-box{
 	margin-bottom:40px;
 
@@ -134,7 +140,7 @@ border-top-right-radius: 10px;
 	background-image:url('/images/rooms_opt/A41W7514.jpg') ;
 }
 .aboutus-box{
-	background-image: url('/images/house_opt/A41W7563.jpg') ;
+	background-image: url('/images/A41W7563.jpg') ;
 }
 .thingstodo-box{
 	background-image: url('/images/thingstodo_opt/IMG_3658.jpg') ;
@@ -142,8 +148,8 @@ border-top-right-radius: 10px;
 .location-box{
 	background-image: url('/images/thingstodo_opt/IMG_3682.jpg') ;
 }
-#main-menu{
-
+#main-menu .container{
+padding-top:15px;
 }
 
  .datepicker table{

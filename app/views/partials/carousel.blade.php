@@ -32,10 +32,10 @@
    </div>
    @if(Session::has('controls') && Session::get('controls'))
   <!-- Controls -->
-  <a class="left carousel-control" href="#about-carousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
   </a>
-  <a class="right carousel-control" href="#about-carousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
   @endif
