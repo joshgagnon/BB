@@ -15,7 +15,7 @@ html {
 body {
 
     color: #595757;
-    padding-bottom: 196px;
+    padding-bottom: 180px;
     background-color: #fafcfc;
         font-family: 'Open Sans', sans-serif;
     background-image: url(/images/confectionary.png);
@@ -23,10 +23,21 @@ body {
 section{
 
 }
+section .container{
+	background-color: #FFFEF7;
+		padding-top:60px;
+	padding-bottom:60px;
+}
 h2{
 	padding-bottom:20px;
 }
-
+h2 {
+text-align: center;
+background-color: #acd;
+padding: 20px;
+color: white;
+margin:0;
+}
 .header{
 
 	text-align: center;
@@ -57,7 +68,18 @@ margin-right: auto;
 top: 20px;
 background-color: rgba(244, 244, 244, 0.53);
 }
-
+section#bg-pic-1 {
+height: 600px;
+background-image: url(/images/IMG_3682.jpg);
+background-size: cover;
+background-position: center center;
+}
+section#bg-pic-2 {
+height: 600px;
+background-image: url(/images/IMG_3684.jpg);
+background-size: cover;
+background-position: center center;
+}
 .footer{
 	text-align:center;
 	background-color: rgba(153, 159, 166, 1);
@@ -67,7 +89,10 @@ background-color: rgba(244, 244, 244, 0.53);
     bottom: 0px;
     width: 100%;
 }
-
+.footer .container{
+	background-color:rgba(153, 159, 166, 1);
+	padding:0;
+}
 .footer a{
 	padding:0 8px;
 	color:white;
@@ -112,8 +137,7 @@ box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.25);
 	background-image: url('/images/thingstodo_opt/IMG_3682.jpg') ;
 }
 #main-menu{
-	padding-top: 60px;
-	padding-bottom: 60px;
+
 }
 
  .datepicker table{

@@ -18,9 +18,9 @@
 </div>
 </section>-->
 <section id="intro">
-	<div class="container">
+
 		A beautiful, modern Bed & Breakfast tucked away near Nelson, New Zealand
-	</div>
+
 </section>
 <section id="main-menu">
 <div class="container">
@@ -109,8 +109,10 @@
 
 
 <section id="about">
-<div class="container">
 <h2 id="about-head">Redvale Ridge Bed and Breakfast</h2>
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
 <p>Our home situated at 114 Redvale Rd, in the award winning GALEO Estate is a contemporary
 country home, which blends in aesthetically with the environment. In building our home we
 thought about health, well-being and impact on the environment so incorporated many eco
@@ -121,6 +123,8 @@ are surrounded by wineries, breweries, artists and food producers and are close 
 popular coastal section of the Tasman Great Taste Trail and the beautiful Moturoa/Rabbit
 Island Beach and Recreation area. We are also centrally located between Nelson and Motueka
 – approximately 20 mins to each.</p>
+</div>
+<div class="col-lg-6">
 <p>Our rural sub-division is known for its bird life and here you will see Pukeko, quail, ducks,
 plover, swallows, kingfisher, low flying hawks and in increasing numbers our wonderful
 native birds such as the fantail and tui.</p>
@@ -131,16 +135,18 @@ arrival.</p>
 help you make plans for all the wonderful things to do and see in this area; we can also assist
 with bookings.
 </p>
+</div>
+</div>
+
+
  </div>
 </section>
-
+<section id="bg-pic-1">
+</section>
 <section id="house">
-<div class="container">
 <h2 id="home-head">The Home</h2>
+<div class="container">
 <div class="row">
-<div class="col-lg-6">
-	 @include('partials.carousel', array('images' => $house,'bg' => false))
-</div>
 <div class="col-lg-6">
 <p>Built in 2012 our home is a large, one level dwelling with two purpose built B&B rooms on the
 eastern side. The house incorporates many eco features, which are:</p>
@@ -174,10 +180,15 @@ great to sit in at night where you can gaze at the twinkling night sky or the li
 ‘top of the south’. We have a number of beautiful books on New Zealand, which are lovely to
 sit and relax with and we have a number of board games to have fun with.</p>
 <p>
+
+</div>
+<div class="col-lg-6">
+	 @include('partials.carousel', array('images' => $house,'bg' => false))
 Our garden is a large developing one.  At the front of the house there is a beautiful border
 garden broken by an outdoor seating and fire area. In different areas around the house there
 are natives, fruit trees, raised vegetable and herb gardens and a camellia hedge. The gully part
 of the section contains mostly native shrubs, trees and grasses.</p>
+
 </div>
 
 </div>
@@ -185,8 +196,8 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 </section>
 
 <section id="rooms">
-<div class="container">
 <h2 id="rooms-head">B&B Rooms and Rates</h2>
+<div class="container">
 <div class="row">
 <div class="col-lg-6">
 <p>There are two large luxurious rooms, one with a King bed and one with a Queen.</p>
@@ -237,10 +248,11 @@ Payment: Internet Banking, Visa and Mastercard
 </div>
 </div>
 </section>
-
+<section id="bg-pic-2">
+</section>
 <section id="todo">
-<div class="container">
 <h2 id="todo-head">Things To Do</h2>
+<div class="container">
 <div class="row">
 <div class="col-lg-6">
 	 @include('partials.carousel', array('images' => $thingstodo,'bg' => false))
@@ -326,7 +338,7 @@ Freshly baked muffins daily.</p>
 	<h2  id="location-head">Location</h2>
 <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d1498.8526719733986!2d173.0710452869974!3d-41.2935169070187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d-41.293762799999996!2d173.07104529999998!5e0!3m2!1sen!2snz!4v1419639257787" width="100%" height="450" frameborder="0" style="border:0"></iframe>
 </div>
-<div class="col-lg-6"
+<div class="col-lg-6">
 	<h2>Bookings Calendar</h2>
 	<p>
 		Browse through the calendar below to see available dates, then email us at <a href="mailto:redvaleridge@gmail.com">redvaleridge@gmail.com</a>

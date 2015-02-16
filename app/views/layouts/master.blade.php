@@ -31,7 +31,7 @@
   <section id="footer" class="footer">
 <div class="container">
 <div class="nav-links">
-	<a href="#home-head" >Th Home</a>
+	<a href="#home-head" >The Home</a>
 	<a href="#rooms-head" >Rooms</a>
 	<a href="#todo-head" >Things to do</a>
 	<a href="#todo-hosts" >About Us</a>
