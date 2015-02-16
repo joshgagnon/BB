@@ -179,12 +179,12 @@ great to sit in at night where you can gaze at the twinkling night sky or the li
 <p>Our home is full of beautiful art work in many mediums, a lot of which has been bought in the
 ‘top of the south’. We have a number of beautiful books on New Zealand, which are lovely to
 sit and relax with and we have a number of board games to have fun with.</p>
-<p>
+
 
 </div>
 <div class="col-lg-6">
 	 @include('partials.carousel', array('images' => $house,'bg' => false))
-Our garden is a large developing one.  At the front of the house there is a beautiful border
+<p>Our garden is a large developing one.  At the front of the house there is a beautiful border
 garden broken by an outdoor seating and fire area. In different areas around the house there
 are natives, fruit trees, raised vegetable and herb gardens and a camellia hedge. The gully part
 of the section contains mostly native shrubs, trees and grasses.</p>
@@ -304,7 +304,7 @@ Payment: Internet Banking, Visa and Mastercard
 <div class="row">
 <div class="col-lg-6">
 <h2  id="hosts-head">Hosts</h2>
-<img class="logo" src="{{ asset('images/hosts.jpg') }}" width="100%" alt="The Hosts, Barbara & Fraser Grant">
+<img class="inline-img" src="{{ asset('images/hosts.jpg') }}" width="100%" alt="The Hosts, Barbara & Fraser Grant">
 <p>Barbara and Fraser came from the bottom of the south, where they farmed, to the top of the
 south over 16 years ago. Fraser works for Transfield Services during the week and Barbara
 works 1-2 nights at a local restaurant. The enjoy: developing and maintaining their large
@@ -315,14 +315,14 @@ B&B wing of the house.</p>
 </div>
 <div class="col-lg-6">
 <h2  id="food-head">Food</h2>
+	@include('partials.carousel', array('images' => $food,'bg' => false))
 
 <p>Choice of continental or full cooked breakfast. All dietary needs catered for.
 
 Freshly baked muffins daily.</p>
 
-<div>Optional: Local tasting platter on arrival $25.</div>
+<p>Optional: Local tasting platter on arrival $25.</p>
 
-	@include('partials.carousel', array('images' => $food,'bg' => false))
 </div>
 </div>
 </div>
