@@ -10,7 +10,7 @@
 		<meta name="description" content="Join us at our beautiful contemporary country home, which incorporates many eco features, and enjoy the stunning views and myriad things to see and do.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+		<link rel="shortcut icon"   type="image/png" href="/favicon.png" />
 	<link href="{{ asset('bower/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
 	<link href="{{ asset('bower/bootstrap-datepicker/css/datepicker.css') }}" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
@@ -49,7 +49,7 @@
 
 <div class="contact-info">
 	Telephone -
-	<a href="tel:+64035446478">+64 03 544 6478
+	<a href="tel:+64035446478">+64 224 566 4788
 	</a>
 	Email -
 	<a href="mailto:redvaleridge@gmail.com">

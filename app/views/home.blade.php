@@ -5,7 +5,7 @@
 @section('content')
 <section class="container-fluid header">
 	 @include('partials.carousel', array('images' => $banner,'bg' => true))
-	<img class="logo" src="{{ asset('images/lawfirmstylefancy.png') }}" alt="Redvale Ridge B&B">
+	<img class="logo" src="{{ asset('images/bb2.png') }}" alt="Redvale Ridge B&B" />
 </section>
 
 <!--<section id="navigation">
@@ -18,9 +18,7 @@
 </div>
 </section>-->
 <section id="intro">
-
-		A beautiful, modern Bed & Breakfast tucked away near Nelson, New Zealand
-
+		A beautiful contemporary, country Bed and Breakfast, centrally located between Nelson and Motueka, Tasman Bay, New Zealand.
 </section>
 <section id="main-menu">
 <div class="container">
@@ -128,7 +126,7 @@ Island Beach and Recreation area. We are also centrally located between Nelson a
 <p>Our rural sub-division is known for its bird life and here you will see Pukeko, quail, ducks,
 plover, swallows, kingfisher, low flying hawks and in increasing numbers our wonderful
 native birds such as the fantail and tui.</p>
-<p>There are a number of cafes and restaurants within a short distance including the wonderful
+<p>There are a number of cafes and restaurants within a short disrectance including the wonderful
 Playhouse Café and Theatre. We also offer an optional local tasting platter on the night of
 arrival.</p>
 <p>We are happy to share with you our love of New Zealand and especially the south island and
@@ -169,7 +167,7 @@ eastern side. The house incorporates many eco features, which are:</p>
 
 <li>Energy efficient lighting and appliances</li>
 
-<li>Recycled glass bottle carpet in bedrooms</li>
+<li>Recycled plastic bottle carpet in bedrooms</li>
 
 <li>Pellet fire and panel heaters for heating when required</li>
 </ul>
@@ -236,10 +234,11 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 </ul>
 <p>
 *One load of washing included during stay.
+<dl class="dl-horizontal">
+<dt>Rates:</dt><dd>$180-$195 per night.</dd>
 
-Rates: $180-$195 per night.
-
-Payment: Internet Banking, Visa and Mastercard
+<dt>Payment:</dt><dd>Internet Banking, Visa and Mastercard</dd>
+</dl>
 </p>
 </div>
 <div class="col-lg-6">
@@ -303,11 +302,11 @@ Payment: Internet Banking, Visa and Mastercard
 <div class="container">
 <div class="row">
 <div class="col-lg-6">
-<h2  id="hosts-head">Hosts</h2>
+<h2  id="hosts-head">About Us</h2>
 <img class="inline-img" src="{{ asset('images/hosts.jpg') }}" width="100%" alt="The Hosts, Barbara & Fraser Grant">
 <p>Barbara and Fraser came from the bottom of the south, where they farmed, to the top of the
 south over 16 years ago. Fraser works for Transfield Services during the week and Barbara
-works 1-2 nights at a local restaurant. The enjoy: developing and maintaining their large
+works 1-2 nights at a local restaurant. They enjoy: developing and maintaining their large
 garden, being involved with a local theatre group, art, music, food, reading, travelling and
 meeting new people. Their son lives in Dunedin and their daughter lives in Perth.</p>
 <p>Their two Birman cats Sundance and Coco are part of the family, but are not allowed in the
