@@ -1,9 +1,9 @@
-<div class="carousel carousel-fade slide" data-ride="carousel" data-interval="5000">
+<div id={{{$id}}} class="carousel carousel-fade slide" data-ride="carousel" data-interval="5000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li  data-slide-to="0" class="active"></li>
+    <li  data-target="#{{{$id}}}" data-slide-to="0" class="active"></li>
     @for ($i = 1; $i < count($images); $i++)
-    <li  data-slide-to="{{ $i }}"></li>
+    <li  data-target="#{{{$id}}}" data-slide-to="{{ $i }}"></li>
     @endfor
   </ol>
 

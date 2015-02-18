@@ -4,7 +4,7 @@
 @stop
 @section('content')
 <section class="container-fluid header">
-	 @include('partials.carousel', array('images' => $banner,'bg' => true))
+	 @include('partials.carousel', array('images' => $banner,'bg' => true, 'id' => 'banner-cara'))
 	<img class="logo" src="{{ asset('images/bb2.png') }}" alt="Redvale Ridge B&B" />
 </section>
 
@@ -181,7 +181,7 @@ sit and relax with and we have a number of board games to have fun with.</p>
 
 </div>
 <div class="col-lg-6">
-	 @include('partials.carousel', array('images' => $house,'bg' => false))
+	 @include('partials.carousel', array('images' => $house,'bg' => false, 'id' => 'house-cara'))
 <p>Our garden is a large developing one.  At the front of the house there is a beautiful border
 garden broken by an outdoor seating and fire area. In different areas around the house there
 are natives, fruit trees, raised vegetable and herb gardens and a camellia hedge. The gully part
@@ -242,7 +242,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 </p>
 </div>
 <div class="col-lg-6">
-	 @include('partials.carousel', array('images' => $rooms,'bg' => false))
+	 @include('partials.carousel', array('images' => $rooms,'bg' => false, 'id' => 'rooms-cara'))
 </div>
 </div>
 </div>
@@ -254,7 +254,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <div class="container">
 <div class="row">
 <div class="col-lg-6">
-	 @include('partials.carousel', array('images' => $thingstodo,'bg' => false))
+	 @include('partials.carousel', array('images' => $thingstodo,'bg' => false, 'id' => 'things-cara'))
 </div>
 <div class="col-lg-6 list">
 <p>Below are just some of the things to do in this area. </p>
@@ -314,7 +314,7 @@ B&B wing of the house.</p>
 </div>
 <div class="col-lg-6">
 <h2  id="food-head">Food</h2>
-	@include('partials.carousel', array('images' => $food,'bg' => false))
+	@include('partials.carousel', array('images' => $food,'bg' => false, 'id' => 'food-cara'))
 
 <p>Choice of continental or full cooked breakfast. All dietary needs catered for.
 

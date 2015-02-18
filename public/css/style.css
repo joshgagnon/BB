@@ -152,7 +152,7 @@ text-align: center;
 	background-image: url('/images/thingstodo_opt/IMG_3658.jpg') ;
 }
 .location-box{
-	background-image: url('/images/thingstodo_opt/IMG_3682.jpg') ;
+	background-image: url('/images/location.jpg') ;
 }
 #main-menu .container{
 	padding-top:15px;
@@ -169,8 +169,8 @@ text-align: center;
 	border-radius:0;
 }
  .datepicker .booked{
-	background-color: rgb(255, 97, 91);
-	color: #FFF;
+	background-color: rgb(255, 97, 91) !important;
+	color: #FFF !important;
 }
 
  .datepicker table td.active{
