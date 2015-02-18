@@ -15,7 +15,7 @@
 			"file": "app/views/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 10323,
+				"buffer_size": 10434,
 				"line_ending": "Unix"
 			}
 		},
@@ -23,7 +23,7 @@
 			"file": "app/views/partials/carousel.blade.php",
 			"settings":
 			{
-				"buffer_size": 1440,
+				"buffer_size": 1503,
 				"line_ending": "Unix"
 			}
 		},
@@ -32,6 +32,14 @@
 			"settings":
 			{
 				"buffer_size": 2346,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/database/seeds/UserSeeder.php",
+			"settings":
+			{
+				"buffer_size": 227,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,15 +55,7 @@
 			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 4677,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/tests/TestCase.php",
-			"settings":
-			{
-				"buffer_size": 335,
+				"buffer_size": 4684,
 				"line_ending": "Unix"
 			}
 		},
@@ -157,8 +157,11 @@
 	[
 		"/Users/josh/BB",
 		"/Users/josh/BB/app",
+		"/Users/josh/BB/app/database",
+		"/Users/josh/BB/app/database/seeds",
 		"/Users/josh/BB/app/models",
 		"/Users/josh/BB/app/tests",
+		"/Users/josh/BB/bootstrap",
 		"/Users/josh/BB/public",
 		"/Users/josh/BB/public/css",
 		"/Users/josh/BB/public/js"
@@ -274,6 +277,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"carous",
 			"container",
 			"thingstodo",
 			"calend",
@@ -304,7 +308,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -313,7 +317,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10323,
+						"buffer_size": 10434,
 						"regions":
 						{
 							"TagLint":
@@ -323,8 +327,8 @@
 								"regions":
 								[
 									[
-										746,
-										749
+										769,
+										772
 									]
 								],
 								"scope": "variable.parameter"
@@ -333,8 +337,8 @@
 						"selection":
 						[
 							[
-								258,
-								258
+								141,
+								147
 							]
 						],
 						"settings":
@@ -348,7 +352,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -357,15 +361,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1440,
+						"buffer_size": 1503,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1297,
-								1297
+								300,
+								300
 							]
 						],
 						"settings":
@@ -395,8 +399,8 @@
 						"selection":
 						[
 							[
-								1239,
-								1239
+								1259,
+								1259
 							]
 						],
 						"settings":
@@ -409,11 +413,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "app/database/seeds/UserSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "public/js/main.js",
 					"semi_transient": false,
 					"settings":
@@ -425,8 +458,8 @@
 						"selection":
 						[
 							[
-								418,
-								418
+								380,
+								380
 							]
 						],
 						"settings":
@@ -438,24 +471,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "public/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4677,
+						"buffer_size": 4684,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2828,
-								2828
+								2928,
+								2928
 							]
 						],
 						"settings":
@@ -464,40 +497,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1836.0,
+						"translation.y": 1459.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/tests/TestCase.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
