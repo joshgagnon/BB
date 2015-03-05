@@ -262,7 +262,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 
 <li>Cycling: The Great Taste Trail <a href="http://www.trailjourneys.co.nz/nelson">www.trailjourneys.co.nz/nelson</a>
 
-<a href="http://www.gentlecycling.co.nz">www.gentlecycling.co.nz</a></li>
+<a href="http://www.gentlecycling.co.nz">www.gentlecycling.co.nz</a>, <a href="http://www.wheeliefantastic.co.nz">www.wheeliefantastic.co.nz</a></li>
 
 <li>Wineries (25) and Wine Tours www.baytoursnelson.co.nz <a href="http://www.nelsonwineart.co.nz">www.nelsonwineart.co.nz</a></li>
 
@@ -277,7 +277,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <li>Mapua Ferry <a href="http://www.mapuaferry.co.nz">www.mapuaferry.co.nz</a></li>
 
 <li>Tramping</li>
-<li>Cycling <a href="http://www.wheeliefantastic.co.nz">www.wheeliefantastic.co.nz</a></li>
+
 
 <li>Fishing: Sea and River</li>
 
