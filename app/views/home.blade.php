@@ -260,23 +260,24 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <p>Below are just some of the things to do in this area. </p>
 <ul>
 
-<li>Cycling: The Great Taste Trail <a href="www.trailjourneys.co.nz/nelson">www.trailjourneys.co.nz/nelson</a>
+<li>Cycling: The Great Taste Trail <a href="http://www.trailjourneys.co.nz/nelson">www.trailjourneys.co.nz/nelson</a>
 
-<a href="www.gentlecycling.co.nz">www.gentlecycling.co.nz</a></li>
+<a href="http://www.gentlecycling.co.nz">www.gentlecycling.co.nz</a></li>
 
-<li>Wineries (25) and Wine Tours www.baytoursnelson.co.nz <a href="www.nelsonwineart.co.nz">www.nelsonwineart.co.nz</a></li>
+<li>Wineries (25) and Wine Tours www.baytoursnelson.co.nz <a href="http://www.nelsonwineart.co.nz">www.nelsonwineart.co.nz</a></li>
 
-<li>Beer and Craft Breweries <a href="www.craftbrewingcapital.co.nz">www.craftbrewingcapital.co.nz</a></li>
+<li>Beer and Craft Breweries <a href="http://www.craftbrewingcapital.co.nz">www.craftbrewingcapital.co.nz</a></li>
 
-<li>Art/Craft/Pottery Trails <a href="www.rubycoastarts.co.nz">www.rubycoastarts.co.nz</a></li>
+<li>Art/Craft/Pottery Trails <a href="http://www.rubycoastarts.co.nz">www.rubycoastarts.co.nz</a></li>
 
-<li>Boating and Kayaking <a href="www.abeltasmanseashuttles.co.nz">www.abeltasmanseashuttles.co.nz</a></li>
+<li>Boating and Kayaking <a href="http://www.abeltasmanseashuttles.co.nz">www.abeltasmanseashuttles.co.nz</a></li>
 
-<li>Abel Tasman Excursions <a href="www.abeltasman.co.nz">www.abeltasman.co.nz</a></li>
+<li>Abel Tasman Excursions <a href="http://www.abeltasman.co.nz">www.abeltasman.co.nz</a></li>
 
-<li>Mapua Ferry <a href="www.mapuaferry.co.nz">www.mapuaferry.co.nz</a></li>
+<li>Mapua Ferry <a href="http://www.mapuaferry.co.nz">www.mapuaferry.co.nz</a></li>
 
 <li>Tramping</li>
+<li>Cycling <a href="http://www.wheeliefantastic.co.nz">www.wheeliefantastic.co.nz</a></li>
 
 <li>Fishing: Sea and River</li>
 
@@ -284,13 +285,13 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 
 <li>Walks</a></li>
 
-<li>Happy Valley Adventures <a href="www.happtvalleyadventures.co.nz">www.happtvalleyadventures.co.nz</a></li>
+<li>Happy Valley Adventures <a href="http://www.happtvalleyadventures.co.nz">www.happtvalleyadventures.co.nz</a></li>
 
-<li>Horse Riding <a href="www.blackbirdvly.co.nz">www.blackbirdvly.co.nz</a></li>
+<li>Horse Riding <a href="http://www.blackbirdvly.co.nz">www.blackbirdvly.co.nz</a></li>
 
 <li>Beaches</li>
 
-<li>Markets <a href="www.nelsonmarket.co.nz">www.nelsonmarket.co.nz</a></li>
+<li>Markets <a href="http://www.nelsonmarket.co.nz">www.nelsonmarket.co.nz</a></li>
 
 <li>Shopping: Richmond and Nelson both offer great shopping.</li>
 </ul>
@@ -316,11 +317,13 @@ B&B wing of the house.</p>
 <h2  id="food-head">Food</h2>
 	@include('partials.carousel', array('images' => $food,'bg' => false, 'id' => 'food-cara'))
 
-<p>Choice of continental or full cooked breakfast. All dietary needs catered for.
+<p>Choice of continental or full cooked breakfast. </p>
+<p>All dietary needs catered for.</p>
+<p>Fresh baking daily.</p>
+<p>Optional: Local tasting platter on arrival $25</p>
+<p>* All dietary needs catered for.
+</p>
 
-Freshly baked muffins daily.</p>
-
-<p>Optional: Local tasting platter on arrival $25.</p>
 
 </div>
 </div>
