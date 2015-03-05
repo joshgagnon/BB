@@ -318,7 +318,6 @@ B&B wing of the house.</p>
 	@include('partials.carousel', array('images' => $food,'bg' => false, 'id' => 'food-cara'))
 
 <p>Choice of continental or full cooked breakfast. </p>
-<p>All dietary needs catered for.</p>
 <p>Fresh baking daily.</p>
 <p>Optional: Local tasting platter on arrival $25</p>
 <p>* All dietary needs catered for.
