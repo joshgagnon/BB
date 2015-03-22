@@ -302,7 +302,9 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <section id="hosts">
 <div class="container">
 <div class="row">
+
 <div class="col-lg-6">
+<h2  class="bgh">&nbsp;</h2>
 <h2  id="hosts-head">About Us</h2>
 <img class="inline-img" src="{{ asset('images/hosts.jpg') }}" width="100%" alt="The Hosts, Barbara & Fraser Grant">
 <p>Barbara and Fraser came from the bottom of the south, where they farmed, to the top of the
@@ -313,7 +315,10 @@ meeting new people. Their son lives in Dunedin and their daughter lives in Perth
 <p>Their two Birman cats Sundance and Coco are part of the family, but are not allowed in the
 B&B wing of the house.</p>
 </div>
+
+
 <div class="col-lg-6">
+<h2  class="bgh">&nbsp;</h2>
 <h2  id="food-head">Food</h2>
 	@include('partials.carousel', array('images' => $food,'bg' => false, 'id' => 'food-cara'))
 
@@ -333,20 +338,24 @@ B&B wing of the house.</p>
 
 
 <section id="location">
+	<h2  id="location-head">Location</h2>
 <div class="container">
 <div class="row">
-<div class="col-lg-6">
-	<h2  id="location-head">Location</h2>
-<iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d1498.8526719733986!2d173.0710452869974!3d-41.2935169070187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d-41.293762799999996!2d173.07104529999998!5e0!3m2!1sen!2snz!4v1419639257787" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+<div class="col-lg-12">
+<iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d1498.8526719733986!2d173.0710452869974!3d-41.2935169070187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d-41.293762799999996!2d173.07104529999998!5e0!3m2!1sen!2snz!4v1419639257787" width="100%" height="450" frameborder="0" style="border:0" id="googleMap"></iframe>
 </div>
-<div class="col-lg-6">
+</div>
+</div>
+</section>
+
+<section id="location">
 	<h2>Bookings Calendar</h2>
-	<p>
-		Browse through the calendar below to see available dates, then email us at <a href="mailto:redvaleridge@gmail.com">redvaleridge@gmail.com</a>
-	</p>
-	<div class="calendar">
-	</div>
-	</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<link href="http://bookings.bookitsecure.com/content/calcss.ashx?b=redval&c=44409" rel="stylesheet" type="text/css" /><iframe id="BookItCalendar" width="100%" src="http://bookings.bookitsecure.com/content/cal.aspx?b=REDVAL&c=44409" frameborder="0" scrolling="no"></iframe>
+</div>
+</div>
 </div>
 </section>
 
