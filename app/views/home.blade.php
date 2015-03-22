@@ -235,9 +235,9 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <p>
 *One load of washing included during stay.
 <dl class="dl-horizontal">
-<dt>Rates:</dt><dd>$180-$195 per night.</dd>
+<dt>Rates:</dt><dd>$200 per night.</dd>
 
-<dt>Payment:</dt><dd>Internet Banking, Visa and Mastercard</dd>
+<dt>Payment:</dt><dd>Internet Banking, Visa and Mastercard, or Cash</dd>
 </dl>
 </p>
 </div>
