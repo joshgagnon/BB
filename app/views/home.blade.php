@@ -3,6 +3,11 @@
 @parent
 @stop
 @section('content')
+<div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+<a target="_blank" class="fixed-link"href="http://bookings.bookitsecure.com/?a6b88-1637035">
+Book Now <span class="bookit">@ book.it</span>
+</a>
+</div>
 <section class="container-fluid header">
 	 @include('partials.carousel', array('images' => $banner,'bg' => true, 'id' => 'banner-cara'))
 	<img class="logo" src="{{ asset('images/bb2.png') }}" alt="Redvale Ridge B&B" />
@@ -17,6 +22,7 @@
 	<a href="#food" class="">Food</a>
 </div>
 </section>-->
+
 <section id="intro">
 		A beautiful contemporary, country Bed and Breakfast, centrally located between Nelson and Motueka, Tasman Bay, New Zealand.
 </section>
@@ -96,7 +102,7 @@
 
 			</div>
 			<div class="text-box">
-				Location & Bookings
+				Location
 			</div>
 		</div>
 		</a>
@@ -348,16 +354,6 @@ B&B wing of the house.</p>
 </div>
 </section>
 
-<section id="location">
-	<h2>Bookings Calendar</h2>
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-<link href="http://bookings.bookitsecure.com/content/calcss.ashx?b=redval&c=44409" rel="stylesheet" type="text/css" /><iframe id="BookItCalendar" width="100%" src="http://bookings.bookitsecure.com/content/cal.aspx?b=REDVAL&c=44409" frameborder="0" scrolling="no"></iframe>
-</div>
-</div>
-</div>
-</section>
 
 
 @stop

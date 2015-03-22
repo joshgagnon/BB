@@ -80,7 +80,7 @@ p{
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	top: 20px;
+	top: 60px;
 	background-color: rgba(244, 244, 244, 0.53);
 }
 section#bg-pic-1 {
@@ -202,7 +202,28 @@ text-align: center;
 		text-align:right;
 	}
 }
+a.fixed-link {
+  text-align: center;
+  background-color: #acd;
+  padding: 8px;
+  color: white;
+  display: block;
 
+}
+.affix{
+  z-index: 50;
+      left: 10px;
+  top: 10px;
+
+}
+.affix a.fixed-link {
+  border-radius: 8px;
+  border: 1px solid #92AFBD;;
+}
+
+.affix .bookit{
+	display:none;
+}
 
 #intro{
 	background-color: #acd;
