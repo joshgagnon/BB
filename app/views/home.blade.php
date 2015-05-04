@@ -226,9 +226,9 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 
 <li>Clock radio</li>
 
-<li>Tea and coffee facilities with freshly ground coffee daily</li>
+<li>Tea and coffee facilities with freshly ground coffee and baking daily</li>
 
-<li>Small fridge</li>
+<li>Small fridge with water and milk provided</li>
 
 <li>Wardrobe and luggage racks</li>
 
@@ -237,6 +237,8 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <li>Free WiFi</li>
 
 <li>Access to outside patio</li>
+
+
 </ul>
 <p>
 *One load of washing included during stay.
