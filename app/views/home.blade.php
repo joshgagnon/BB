@@ -123,7 +123,7 @@ thought about health, well-being and impact on the environment so incorporated m
 features. The views from our home are simply stunning, taking in the Western Ranges,
 Tasman Bay out to D’Urville Island and at night the twinkling lights of Nelson.</p>
 <p>Being between the thriving town of Richmond and the beautiful coastal village of Mapua, we
-are surrounded by wineries, breweries, artists and food producers and are close to the
+are surrounded by wineries, craft breweries, artists and food producers and are close to the
 popular coastal section of the Tasman Great Taste Trail and the beautiful Moturoa/Rabbit
 Island Beach and Recreation area. We are also centrally located between Nelson and Motueka
 – approximately 20 mins to each.</p>
@@ -132,7 +132,7 @@ Island Beach and Recreation area. We are also centrally located between Nelson a
 <p>Our rural sub-division is known for its bird life and here you will see Pukeko, quail, ducks,
 plover, swallows, kingfisher, low flying hawks and in increasing numbers our wonderful
 native birds such as the fantail and tui.</p>
-<p>There are a number of cafes and restaurants within a short disrectance including the wonderful
+<p>There are a number of cafes and restaurants within a short distance including the wonderful
 Playhouse Café and Theatre. We also offer an optional local tasting platter on the night of
 arrival.</p>
 <p>We are happy to share with you our love of New Zealand and especially the south island and
@@ -204,19 +204,19 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <div class="container">
 <div class="row">
 <div class="col-lg-6">
-<p>There are two large luxurious rooms, one with a King bed and one with a Queen.</p>
+<p>There are two large luxurious rooms, one with a King bed and one with a Queen.  </p>
 
 <p>Each room has:</p>
 <ul>
 <li>Beautiful ensuites</li>
+
+<li>Table and chairs inside and out</li>
 
 <li>Comfortable, supportive beds</li>
 
 <li>Bamboo sheets and pillowcases</li>
 
 <li>Handmade bedcovers</li>
-
-<li>Table and chairs</li>
 
 <li>32” Samsung TV</li>
 
@@ -232,11 +232,11 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 
 <li>Wardrobe and luggage racks</li>
 
-<li>Outdoor table and chairs</li>
-
 <li>Original artwork</li>
 
 <li>Free WiFi</li>
+
+<li>Access to outside patio</li>
 </ul>
 <p>
 *One load of washing included during stay.
@@ -245,6 +245,17 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 
 <dt>Payment:</dt><dd>Internet Banking, Visa and Mastercard, or Cash</dd>
 </dl>
+</p>
+<p>
+<strong><em>Cancellation Policy</em></strong><br/>
+<ul>
+<li>Reservations cancelled up to 7 days prior to arrival  - no cancellation fee.</li>
+<li>Reservations cancelled up to 2 days prior to arrival - 100 cancellation fee unless room can be resold.</li>
+<li>'No Shows' - full cost of booking will be charged.</li>
+</ul>
+</p>
+<p>
+The rooms are set up for single people or couples so therefore are not suitable for children.
 </p>
 </div>
 <div class="col-lg-6">
