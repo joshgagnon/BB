@@ -15,7 +15,7 @@
 			"file": "app/views/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 10657,
+				"buffer_size": 11260,
 				"line_ending": "Unix"
 			}
 		},
@@ -305,6 +305,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dist",
 			"$",
 			"fixed",
 			"carous",
@@ -338,6 +339,7 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -346,7 +348,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10657,
+						"buffer_size": 11260,
 						"regions":
 						{
 							"TagLint":
@@ -356,8 +358,8 @@
 								"regions":
 								[
 									[
-										991,
-										994
+										1101,
+										1104
 									]
 								],
 								"scope": "variable.parameter"
@@ -366,8 +368,8 @@
 						"selection":
 						[
 							[
-								6220,
-								6220
+								461,
+								461
 							]
 						],
 						"settings":
@@ -378,7 +380,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2577.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -794,6 +796,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"hom",
+				"app/views/home.blade.php"
+			],
 			[
 				"scroll",
 				"public/bower/bootstrap/js/scrollspy.js"

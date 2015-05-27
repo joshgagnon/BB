@@ -10,6 +10,7 @@ Book Now <span class="bookit">@ book.it</span>
 </div>
 <section class="container-fluid header">
 	 @include('partials.carousel', array('images' => $banner,'bg' => true, 'id' => 'banner-cara'))
+	<img class="association" src="{{ asset('images/BandB_Assoc_Logo-trans.png') }}" alt="B and B Association" />
 	<img class="logo" src="{{ asset('images/bb2.png') }}" alt="Redvale Ridge B&B" />
 </section>
 
@@ -361,7 +362,7 @@ B&B wing of the house.</p>
 <div class="container">
 <div class="row">
 <div class="col-lg-12">
-<iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d1498.8526719733986!2d173.0710452869974!3d-41.2935169070187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d-41.293762799999996!2d173.07104529999998!5e0!3m2!1sen!2snz!4v1419639257787" width="100%" height="450" frameborder="0" style="border:0" id="googleMap"></iframe>
+<iframe src="https://www.google.com/maps/embed/v1/place?q=redvale%20ridge%20b%26b&key=AIzaSyBcUlrIphw6eoWvKt_Ln7vEeeJkhgg-iL8"width="100%" height="450" frameborder="0" style="border:0" id="googleMap"></iframe>
 </div>
 </div>
 </div>
