@@ -49,7 +49,7 @@
 
 <div class="contact-info">
 	Telephone -
-	<a href="tel:+64035446478">+64 224 566 4788
+	<a href="tel:+64035446478">+64 224 566 478
 	</a>
 	Email -
 	<a href="mailto:redvaleridge@gmail.com">
