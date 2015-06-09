@@ -10,7 +10,7 @@ Book Now <span class="bookit">@ book.it</span>
 </div>
 <section class="container-fluid header">
 	 @include('partials.carousel', array('images' => $banner,'bg' => true, 'id' => 'banner-cara'))
-	<img class="association" src="{{ asset('images/BandB_Assoc_Logo-trans.png') }}" alt="B and B Association" />
+
 	<img class="logo" src="{{ asset('images/bb2.png') }}" alt="Redvale Ridge B&B" />
 </section>
 
@@ -109,9 +109,23 @@ Book Now <span class="bookit">@ book.it</span>
 		</a>
 	</div>
 
+	<div id="links">
+	<div>
+		<a target="_blank" href="http://bandbassociation.co.nz/profile/Redvale+Ridge" ><img class="association" src="{{ asset('images/bandbassoc.png') }}" alt="B and B Association" /></a></div>
+	<div>	<a target="_blank" href="https://www.facebook.com/rrbandb"><img class="facebook" src="{{ asset('images/FB-f-Logo__blue_144.png') }}" alt="Find us on Facebook" /></a></div>
+	<div>
+	<div id="TA_rated860" class="TA_rated">
+	<ul id="dYlfdXwAbI" class="TA_links iMWitMLK86gO">
+	<li id="G8rQPvOxA" class="XwqrStLvO3">
+	<a target="_blank" href="http://www.tripadvisor.co.nz/"><img src="http://www.tripadvisor.co.nz/img/cdsi/img2/badges/ollie-11424-2.gif" alt="TripAdvisor"/></a>
+	</li>
+	</ul>
+	</div>
+	<script src="http://www.jscache.com/wejs?wtype=rated&amp;uniq=860&amp;locationId=7986014&amp;lang=en_NZ&amp;display_version=2"></script>
+	</div>
+	</div>
 </div>
 </section>
-
 
 <section id="about">
 <h2 id="about-head">Redvale Ridge Bed and Breakfast</h2>
@@ -367,7 +381,6 @@ B&B wing of the house.</p>
 </div>
 </div>
 </section>
-
 
 
 @stop

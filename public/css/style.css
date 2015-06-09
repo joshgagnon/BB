@@ -70,6 +70,32 @@ p{
 }
 
 
+#links{
+	text-align: center;
+}
+#links > div{
+	display:inline-block;
+	margin:5px 10px;
+}
+#links img{
+	vertical-align: bottom;
+}
+img.association {
+  background-color: rgba(244, 244, 244, 0.9);
+  height: 100px;
+  border-radius:8px;
+}
+
+img.facebook {
+  height: 100px;
+}
+#CDSWIDFRR{
+	overflow: visible !important;
+	margin:0 !important;
+	top: -12px;
+}
+
+
 .header .logo {
 	max-width: 80%;
 	max-height: 200px;
@@ -164,6 +190,7 @@ text-align: center;
 }
 #main-menu .container{
 	padding-top:15px;
+	padding-bottom:10px;
 }
 
  .datepicker table{

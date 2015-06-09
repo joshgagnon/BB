@@ -15,7 +15,7 @@
 			"file": "app/views/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 11260,
+				"buffer_size": 11118,
 				"line_ending": "Unix"
 			}
 		},
@@ -305,6 +305,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"map",
 			"dist",
 			"$",
 			"fixed",
@@ -348,7 +349,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11260,
+						"buffer_size": 11118,
 						"regions":
 						{
 							"TagLint":
@@ -368,8 +369,8 @@
 						"selection":
 						[
 							[
-								461,
-								461
+								9295,
+								9295
 							]
 						],
 						"settings":
@@ -380,7 +381,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3792.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
