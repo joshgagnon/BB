@@ -376,7 +376,7 @@ B&B wing of the house.</p>
 <div class="container">
 <div class="row">
 <div class="col-lg-12">
-<iframe src="https://www.google.com/maps/embed/v1/place?q=redvale%20ridge%20b%26b&key=AIzaSyBcUlrIphw6eoWvKt_Ln7vEeeJkhgg-iL8"width="100%" height="450" frameborder="0" style="border:0" id="googleMap"></iframe>
+<iframe src="https://www.google.com/maps/embed/v1/place?q=redvale%20ridge%20b%26b%20richmond&key=AIzaSyBcUlrIphw6eoWvKt_Ln7vEeeJkhgg-iL8"width="100%" height="450" frameborder="0" style="border:0" id="googleMap"></iframe>
 </div>
 </div>
 </div>
