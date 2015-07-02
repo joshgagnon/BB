@@ -4,9 +4,13 @@
 @stop
 @section('content')
 <div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
-<a target="_blank" class="fixed-link"href="http://bookings.bookitsecure.com/?a6b88-1637035">
+<div class="fixed-link">
+<a target="_blank"  href="http://bookings.bookitsecure.com/?a6b88-1637035">
 Book Now <span class="bookit">@ book.it</span>
 </a>
+<a href="tel:+64035446478"><span class="phone">+64 224 566 478</span>
+</a>
+</div>
 </div>
 <section class="container-fluid header">
 	 @include('partials.carousel', array('images' => $banner,'bg' => true, 'id' => 'banner-cara'))
@@ -117,7 +121,7 @@ Book Now <span class="bookit">@ book.it</span>
 	<div id="TA_rated860" class="TA_rated">
 	<ul id="dYlfdXwAbI" class="TA_links iMWitMLK86gO">
 	<li id="G8rQPvOxA" class="XwqrStLvO3">
-	<a target="_blank" href="http://www.tripadvisor.co.nz/"><img src="http://www.tripadvisor.co.nz/img/cdsi/img2/badges/ollie-11424-2.gif" alt="TripAdvisor"/></a>
+	<a target="_blank" href="http://www.tripadvisor.co.nz/Hotel_Review-g8099604-d7986014-Reviews-Redvale_Ridge_B_B-Redwood_Valley_Nelson_Tasman_Region_South_Island.html"><img src="http://www.tripadvisor.co.nz/img/cdsi/img2/badges/ollie-11424-2.gif" alt="TripAdvisor"/></a>
 	</li>
 	</ul>
 	</div>

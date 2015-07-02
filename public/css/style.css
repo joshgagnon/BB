@@ -229,26 +229,33 @@ text-align: center;
 		text-align:right;
 	}
 }
-a.fixed-link {
+.fixed-link a{
+  color: white;
+}
+
+.fixed-link .phone{
+  margin-left: 10px;
+}
+
+.fixed-link {
   text-align: center;
   background-color: #acd;
-  padding: 8px;
-  color: white;
+  padding:8px;
   display: block;
-
 }
+
 .affix{
-  z-index: 50;
-      left: 10px;
-  top: 10px;
-
-}
-.affix a.fixed-link {
-  border-radius: 8px;
-  border: 1px solid #92AFBD;;
+  	z-index: 50;
+  	left: 10px;
+ 	top: 10px;
 }
 
-.affix .bookit{
+.affix .fixed-link{
+	border-radius: 8px;
+	border: 1px solid #92AFBD;
+}
+
+.affix .bookit, .affix .phone{
 	display:none;
 }
 
