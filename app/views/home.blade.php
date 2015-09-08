@@ -113,21 +113,23 @@ Book Now <span class="bookit">@ book.it</span>
 		</a>
 	</div>
 
-	<div id="links">
-	<div>
-		<a target="_blank" href="http://bandbassociation.co.nz/profile/Redvale+Ridge" ><img class="association" src="{{ asset('images/bandbassoc.png') }}" alt="B and B Association" /></a></div>
-	<div>	<a target="_blank" href="https://www.facebook.com/rrbandb"><img class="facebook" src="{{ asset('images/FB-f-Logo__blue_144.png') }}" alt="Find us on Facebook" /></a></div>
-	<div>
-	<div id="TA_rated860" class="TA_rated">
-	<ul id="dYlfdXwAbI" class="TA_links iMWitMLK86gO">
-	<li id="G8rQPvOxA" class="XwqrStLvO3">
-	<a target="_blank" href="http://www.tripadvisor.co.nz/Hotel_Review-g8099604-d7986014-Reviews-Redvale_Ridge_B_B-Redwood_Valley_Nelson_Tasman_Region_South_Island.html"><img src="http://www.tripadvisor.co.nz/img/cdsi/img2/badges/ollie-11424-2.gif" alt="TripAdvisor"/></a>
-	</li>
-	</ul>
+	<div id="links" >
+		<div>
+			<a target="_blank" href="http://bandbassociation.co.nz/profile/Redvale+Ridge" ><img class="association" src="{{ asset('images/bandbassoc.png') }}" alt="B and B Association" /></a></div>
+		<div>	<a target="_blank" href="https://www.facebook.com/rrbandb"><img class="facebook" src="{{ asset('images/FB-f-Logo__blue_144.png') }}" alt="Find us on Facebook" /></a></div>
+		<div>
+		<div id="TA_rated860" class="TA_rated">
+		<ul id="dYlfdXwAbI" class="TA_links iMWitMLK86gO">
+		<li id="G8rQPvOxA" class="XwqrStLvO3">
+		<a target="_blank" href="http://www.tripadvisor.co.nz/Hotel_Review-g8099604-d7986014-Reviews-Redvale_Ridge_B_B-Redwood_Valley_Nelson_Tasman_Region_South_Island.html"><img src="http://www.tripadvisor.co.nz/img/cdsi/img2/badges/ollie-11424-2.gif" alt="TripAdvisor"/></a>
+		</li>
+		</ul>
+		</div>
+		<script src="http://www.jscache.com/wejs?wtype=rated&amp;uniq=860&amp;locationId=7986014&amp;lang=en_NZ&amp;display_version=2"></script>
+		</div>
 	</div>
-	<script src="http://www.jscache.com/wejs?wtype=rated&amp;uniq=860&amp;locationId=7986014&amp;lang=en_NZ&amp;display_version=2"></script>
-	</div>
-	</div>
+
+
 </div>
 </section>
 
@@ -362,7 +364,7 @@ B&B wing of the house.</p>
 
 <p>Choice of continental or full cooked breakfast. </p>
 <p>Fresh baking daily.</p>
-<p>Optional: Local tasting platter on arrival $25</p>
+<p>Optional: Local tasting platter on arrival $30</p>
 <p>* All dietary needs catered for.
 </p>
 

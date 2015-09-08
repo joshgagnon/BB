@@ -15,7 +15,7 @@
 			"file": "app/views/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 11875,
+				"buffer_size": 12102,
 				"line_ending": "Unix"
 			}
 		},
@@ -23,7 +23,7 @@
 			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 6051,
+				"buffer_size": 6119,
 				"line_ending": "Unix"
 			}
 		},
@@ -338,7 +338,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11875,
+						"buffer_size": 12102,
 						"regions":
 						{
 							"TagLint":
@@ -348,8 +348,8 @@
 								"regions":
 								[
 									[
-										992,
-										995
+										1082,
+										1085
 									]
 								],
 								"scope": "variable.parameter"
@@ -358,19 +358,21 @@
 						"selection":
 						[
 							[
-								7682,
-								7683
+								2327,
+								2327
 							]
 						],
 						"settings":
 						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "php",
 							"is_xml": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4632.0,
+						"translation.y": 939.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -382,24 +384,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6051,
+						"buffer_size": 6119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2847,
-								2847
+								3883,
+								3883
 							]
 						],
 						"settings":
 						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "css",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1914.0,
+						"translation.y": 2499.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
