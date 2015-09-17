@@ -28,14 +28,6 @@
 			}
 		},
 		{
-			"file": "app/filters.php",
-			"settings":
-			{
-				"buffer_size": 2193,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/database/seeds/UserSeeder.php",
 			"settings":
 			{
@@ -337,7 +329,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -366,8 +358,8 @@
 						"selection":
 						[
 							[
-								11629,
-								11629
+								10469,
+								10469
 							]
 						],
 						"settings":
@@ -380,11 +372,17 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4291.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
+				},
+				{
+					"file": "public/images/banner_opt/5.jpg",
+					"semi_transient": true,
+					"stack_index": 0,
+					"type": "image"
 				},
 				{
 					"buffer": 1,
@@ -419,38 +417,6 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/filters.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								454,
-								454
-							]
-						],
-						"settings":
-						{
-							"WordCountShouldRun": false,
-							"WordCountSyntax": "php",
-							"is_xml": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "app/database/seeds/UserSeeder.php",
 					"semi_transient": false,
 					"settings":
@@ -479,7 +445,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "public/js/main.js",
 					"semi_transient": false,
 					"settings":
@@ -508,7 +474,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "app/routes.php",
 					"semi_transient": false,
 					"settings":
@@ -538,7 +504,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "app/controllers/HomeController.php",
 					"semi_transient": false,
 					"settings":
@@ -568,7 +534,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "bower.json",
 					"semi_transient": false,
 					"settings":
@@ -596,7 +562,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "app/database/migrations/2014_12_28_013347_create_bookings_table.php",
 					"semi_transient": false,
 					"settings":
@@ -626,7 +592,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "app/database/migrations/2014_12_28_013913_remember_token.php",
 					"semi_transient": false,
 					"settings":
@@ -656,7 +622,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php",
 					"semi_transient": false,
 					"settings":
@@ -686,7 +652,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 10,
 					"file": "public/bower/bootstrap-datepicker/js/bootstrap-datepicker.js",
 					"semi_transient": false,
 					"settings":

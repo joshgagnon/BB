@@ -22,7 +22,9 @@ body {
     font-size: 16px;
     overflow-x:hidden;
 }
-
+section{
+	overflow-x:hidden;
+}
 section .container{
 	background-color: #FFFEF7;
 	padding-bottom:60px;
