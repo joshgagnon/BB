@@ -23,7 +23,7 @@
 			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 6119,
+				"buffer_size": 6149,
 				"line_ending": "Unix"
 			}
 		},
@@ -147,17 +147,13 @@
 		"/Users/josh/BB",
 		"/Users/josh/BB/app",
 		"/Users/josh/BB/app/database",
-		"/Users/josh/BB/app/database/seeds",
 		"/Users/josh/BB/app/models",
 		"/Users/josh/BB/app/tests",
 		"/Users/josh/BB/app/views",
-		"/Users/josh/BB/app/views/layouts",
-		"/Users/josh/BB/app/views/partials",
 		"/Users/josh/BB/bootstrap",
 		"/Users/josh/BB/public",
 		"/Users/josh/BB/public/css",
 		"/Users/josh/BB/public/images",
-		"/Users/josh/BB/public/images/banner_opt",
 		"/Users/josh/BB/public/js"
 	],
 	"file_history":
@@ -358,13 +354,12 @@
 						"selection":
 						[
 							[
-								10469,
-								10469
+								375,
+								375
 							]
 						],
 						"settings":
 						{
-							"WordCountShouldRun": false,
 							"WordCountSyntax": "php",
 							"is_xml": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
@@ -379,40 +374,33 @@
 					"type": "text"
 				},
 				{
-					"file": "public/images/banner_opt/5.jpg",
-					"semi_transient": true,
-					"stack_index": 0,
-					"type": "image"
-				},
-				{
 					"buffer": 1,
 					"file": "public/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6119,
+						"buffer_size": 6149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3586,
-								3586
+								224,
+								224
 							]
 						],
 						"settings":
 						{
-							"WordCountShouldRun": false,
 							"WordCountSyntax": "css",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2499.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -441,7 +429,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -470,7 +458,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -500,7 +488,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -530,7 +518,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -558,7 +546,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -588,7 +576,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -618,7 +606,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -648,7 +636,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -677,7 +665,7 @@
 						"translation.y": 19148.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -736,6 +724,10 @@
 		"selected_items":
 		[
 			[
+				"",
+				"public/css/style.css"
+			],
+			[
 				"style",
 				"public/css/style.css"
 			],
@@ -758,10 +750,6 @@
 			[
 				"main",
 				"public/js/main.js"
-			],
-			[
-				"",
-				"public/css/style.css"
 			],
 			[
 				"migrations",
