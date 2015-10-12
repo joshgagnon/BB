@@ -23,7 +23,7 @@
 			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 6149,
+				"buffer_size": 6152,
 				"line_ending": "Unix"
 			}
 		},
@@ -379,25 +379,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6149,
+						"buffer_size": 6152,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								224,
-								224
+								3958,
+								3958
 							]
 						],
 						"settings":
 						{
+							"WordCountShouldRun": false,
 							"WordCountSyntax": "css",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 2940.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

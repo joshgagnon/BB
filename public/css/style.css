@@ -241,7 +241,7 @@ text-align: center;
 
 .fixed-link {
   text-align: center;
-  background-color: #007AB7;
+  background-color: rgb(175, 2, 2);
   padding:8px;
   display: block;
 }
@@ -254,7 +254,7 @@ text-align: center;
 
 .affix .fixed-link{
 	border-radius: 8px;
-	border: 1px solid #92AFBD;
+	border: 1px solid rgb(175, 2, 2);
 }
 
 .affix .bookit, .affix .phone{
