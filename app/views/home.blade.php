@@ -266,7 +266,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <dl class="dl-horizontal">
 <dt>Rates:</dt><dd>$180 to $200 per night.</dd>
 
-<dt>Payment:</dt><dd>Internet Banking, Visa and Mastercard, or Cash. A surcharge of 3% will be applied to card payments.</dd>
+<dt>Payment:</dt><dd>Internet Banking, Visa and Mastercard, or Cash. A surcharge of 3% will be applied to credit card payments.</dd>
 </dl>
 </p>
 <p>
