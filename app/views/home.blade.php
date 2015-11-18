@@ -263,11 +263,12 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 </ul>
 <p>
 *One load of washing included during stay.
-<dl class="dl-horizontal">
-<dt>Rates:</dt><dd>$180 to $200 per night.</dd>
 
-<dt>Payment:</dt><dd>Internet Banking, Visa and Mastercard, or Cash. A surcharge will be applied to credit card payments.</dd>
-</dl>
+</p>
+<p>
+<strong><em>Rates</em></strong><br/>
+$240 per night.<br/>
+10% discount when booking direct on <a href="tel:+64035446478"><span class="phone">+64 224 566 478</span></a>
 </p>
 <p>
 <strong><em>Cancellation Policy</em></strong><br/>
@@ -365,7 +366,7 @@ B&B wing of the house.</p>
 <p>Choice of continental or full cooked breakfast. </p>
 <p>Fresh baking daily.</p>
 <p>Optional: Local tasting platter on arrival $30</p>
-<p>* All dietary needs catered for.
+<p>* All dietary needs catered for. Gluten free cooking a specialty.
 </p>
 
 
