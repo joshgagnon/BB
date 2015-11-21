@@ -267,8 +267,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 </p>
 <p>
 <strong><em>Rates</em></strong><br/>
-$240 per night.<br/>
-10% discount when booking direct on <a href="tel:+64035446478"><span class="phone">+64 224 566 478</span></a>
+$240 per night.
 </p>
 <p>
 <strong><em>Cancellation Policy</em></strong><br/>
