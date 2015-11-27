@@ -15,7 +15,7 @@
 			"file": "app/views/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 12140,
+				"buffer_size": 12027,
 				"line_ending": "Unix"
 			}
 		},
@@ -344,7 +344,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12140,
+						"buffer_size": 12027,
 						"regions":
 						{
 							"TagLint":
@@ -364,8 +364,8 @@
 						"selection":
 						[
 							[
-								8039,
-								8039
+								7912,
+								7912
 							]
 						],
 						"settings":
