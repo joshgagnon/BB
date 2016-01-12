@@ -154,7 +154,7 @@ Island Beach and Recreation area. We are also centrally located between Nelson a
 plover, swallows, kingfisher, low flying hawks and in increasing numbers our wonderful
 native birds such as the fantail and tui.</p>
 <p>There are a number of cafes and restaurants within a short distance including the wonderful
-Playhouse Café and Theatre. We also offer an optional local tasting platter on the night of
+Playhouse Café and Theatre. We also offer an optional tasting platter on the night of
 arrival.</p>
 <p>We are happy to share with you our love of New Zealand and especially the south island and
 help you make plans for all the wonderful things to do and see in this area; we can also assist
@@ -365,7 +365,7 @@ B&B wing of the house.</p>
 
 <p>Choice of continental or full cooked breakfast. </p>
 <p>Fresh baking daily.</p>
-<p>Optional: Local tasting platter on arrival $30</p>
+<p>Optional: Tasting platter on arrival $35</p>
 <p>* All dietary needs catered for. Gluten free cooking a specialty.
 </p>
 
