@@ -268,7 +268,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <p>
 <strong><em>Rates</em></strong><br/>
 $220 per night.<br/>
-If contacting us directly, ask about a discount.
+We welcome direct booking.
 </p>
 <p>
 <strong><em>Cancellation Policy</em></strong><br/>
