@@ -31,6 +31,20 @@ Book Now <span class="bookit">@ book.it</span>
 <section id="intro">
 		A beautiful contemporary, country Bed and Breakfast, centrally located between Nelson and Motueka, Tasman Bay, New Zealand.
 </section>
+
+<section id="quotes">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+        <p class="quote">"Best of B&B experiences."</p><span class="quote-attribution">- Clemens (AT)</span>
+    </div>
+    <div class="col-md-6">
+        <p class="quote">"Best B&B we have stayed at!"</p><span class="quote-attribution">- John (NZ)</span>
+    </div>
+    </div>
+    </div>
+</section>
+
 <section id="main-menu">
 <div class="container">
 
@@ -157,8 +171,7 @@ native birds such as the fantail and tui.</p>
 Playhouse Café and Theatre. We also offer an optional tasting platter on the night of
 arrival.</p>
 <p>We are happy to share with you our love of New Zealand and especially the south island and
-help you make plans for all the wonderful things to do and see in this area; we can also assist
-with bookings.
+help you make plans for all the wonderful things to do and see in this area; we can also assist with bookings.
 </p>
 </div>
 </div>
@@ -167,7 +180,20 @@ with bookings.
  </div>
 </section>
 <section id="bg-pic-1">
+    <div class="container no-bg bright">
+    <div class="col-md-8 col-md-offset-2">
+    <div class="quote-overlay">
+        <p class="quote">"Quiet, clean, modern, comfortable and lovely people too."</p><span class="quote-attribution">- Patrick (NZ)</span>
+
+        <p class="quote">"Wonderful Stay! Great accommodations, delicious home baked goods, and a breathtaking view.</p><span class="quote-attribution">- Julia (US)</span>
+    </div>
+    </div>
+    </div>
+    </div>
 </section>
+
+
+
 <section id="house">
 <h2 id="home-head">The Home</h2>
 <div class="container">
@@ -288,8 +314,22 @@ The rooms are set up for single people or couples so therefore are not suitable 
 </div>
 </div>
 </section>
+
+
 <section id="bg-pic-2">
+    <div class="container no-bg bright">
+    <div class="col-md-8 col-md-offset-2">
+    <div class="quote-overlay">
+        <p class="quote">"Our hosts were very accommodating, friendly and helpful. The setting is magical has to be seen."</p><span class="quote-attribution">- David (GB)</span>
+
+        <p class="quote">"Great room, wonderful views, excellent breakfast, charming hosts. It was just perfect"</p><span class="quote-attribution">- Bert (AU)</span>
+    </div>
+    </div>
+    </div>
+    </div>
 </section>
+
+
 <section id="todo">
 <h2 id="todo-head">Things To Do</h2>
 <div class="container">
@@ -365,7 +405,7 @@ B&B wing of the house.</p>
 
 <p>Choice of continental or full cooked breakfast. </p>
 <p>Fresh baking daily.</p>
-<p>Optional: Tasting platter on arrival $35</p>
+<p>Optional: Tasting platter on arrival $35, must be pre-ordered.</p>
 <p>* All dietary needs catered for. Gluten free cooking a specialty.
 </p>
 

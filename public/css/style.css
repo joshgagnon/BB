@@ -29,6 +29,10 @@ section .container{
 	background-color: #FFFEF7;
 	padding-bottom:60px;
 }
+section .container.no-bg{
+    background-color: transparent;
+    padding-bottom:0
+}
 h2{
 	padding-bottom:20px;
 	text-align: center;
@@ -140,9 +144,12 @@ section#bg-pic-2 {
 }
 
 .footer a{
-  padding: 0 8px;
-  font-size: 13px;
+  padding: 0 12px;
+  font-size: 16px;
   color: rgb(247, 247, 247);
+}
+.footer .nav-links{
+    margin-bottom: 8px;
 }
 .footer .copyright-info{
 font-size: 12px;
@@ -176,7 +183,7 @@ text-align: center;
 	background-image: url('/images/house_opt/A41W0301.jpg');
 }
 .food-box{
-	background-image: url('/images/food_opt/IMG_3578.jpg');
+	background-image: url('/images/food_opt/1.jpg');
 }
 .room-box{
 	background-image:url('/images/rooms_opt/1.jpg') ;
@@ -341,4 +348,34 @@ position: absolute;
       -webkit-transform: translate3d(0, 0, 0);
               transform: translate3d(0, 0, 0);
     }
+}
+
+#quotes .container{
+    padding-bottom: 10px;
+}
+p.quote {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom:0;
+}
+.quote-attribution{
+    width:  100%;
+    font-style:italic;
+    text-align: right;
+    display:inline-block;
+    padding-right:25%
+}
+
+.bright p.quote{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px #000
+}
+.bright .quote-attribution{
+    color:white;
+    text-shadow: 2px 2px #000
+}
+
+.quote-overlay .quote{
+    margin-top: 20%;
 }
