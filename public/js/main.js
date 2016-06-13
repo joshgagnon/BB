@@ -1,7 +1,7 @@
-var booked_dates = [];
+//var booked_dates = [];
 
 $(document).ready(function(){
-	var manage_mode = window.location.href.indexOf('manage') > -1;
+	/*var manage_mode = window.location.href.indexOf('manage') > -1;
 	$('.calendar').datepicker({
 		format: 'dd/mm/yyyy',
 		beforeShowDay: function(date){
@@ -48,7 +48,7 @@ $(document).ready(function(){
     	});
 	}
 
-
+*/
 
 	$('.carousel').on("slide.bs.carousel", function(e) {
 		var $tar = $(e.relatedTarget)

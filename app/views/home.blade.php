@@ -3,15 +3,11 @@
 @parent
 @stop
 @section('content')
-<div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+
 <div class="fixed-link">
-<a target="_blank"  href="http://bookings.bookitsecure.com/?a6b88-1637035">
-Book Now <span class="bookit">@ book.it</span>
-</a>
-<a href="tel:+64035446478"><span class="phone">+64 224 566 478</span>
-</a>
+<div id="SMART-widget-container"><a target="_blank" href="https://smartgms.com/book/smartcal?cid=88303"><img src="https://smartgms.com/site/templates/img/smartres/buttons/button05.png" width="270" height="59" alt="Availability and Book Now"></a></div>
 </div>
-</div>
+
 <section class="container-fluid header">
 	 @include('partials.carousel', array('images' => $banner,'bg' => true, 'id' => 'banner-cara'))
 
@@ -296,7 +292,16 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 $220 per night.<br/>
 We welcome direct booking.
 </p>
+
+
+
 <p>
+The rooms are set up for single people or couples so therefore are not suitable for children.
+</p>
+</div>
+<div class="col-lg-6">
+	 @include('partials.carousel', array('images' => $rooms,'bg' => false, 'id' => 'rooms-cara'))
+     <p>
 <strong><em>Cancellation Policy</em></strong><br/>
 <ul>
 <li>Reservations cancelled up to 7 days prior to arrival  - no cancellation fee.</li>
@@ -304,12 +309,7 @@ We welcome direct booking.
 <li>'No Shows' - full cost of booking will be charged.</li>
 </ul>
 </p>
-<p>
-The rooms are set up for single people or couples so therefore are not suitable for children.
-</p>
-</div>
-<div class="col-lg-6">
-	 @include('partials.carousel', array('images' => $rooms,'bg' => false, 'id' => 'rooms-cara'))
+
 </div>
 </div>
 </div>

@@ -36,7 +36,7 @@
 	<a href="#todo-head" >Things to do</a>
 	<a href="#todo-hosts" >About Us</a>
 	<a href="#todo-head" >Things to do</a>
-	<a href="#location-head" >Location & Bookings</a>
+	<a href="#location-head" >Location</a>
 	 @if(!Auth::check())
 	{{ HTML::link('login', 'Login') }}
 	@else
@@ -57,15 +57,13 @@
 	</a>
 </div>
 <div class="copyright-info">
-		©Copyright 2015 Joshua Gagnon
+		©Copyright 2016 Joshua Gagnon
 </div>
 </div>
 </section>
 
 <script src="{{ asset('bower/jquery/dist/jquery.min.js') }}"></script>
 <script src="{{ asset('bower/bootstrap/dist/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('/bower/bootstrap-datepicker/js/bootstrap-datepicker.js') }}"></script>
-<script src="{{ asset('js/smoothscroll.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
