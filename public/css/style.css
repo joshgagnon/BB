@@ -250,21 +250,27 @@ text-align: center;
     left: 0;
     top: 0;
     right:0;
+ background-color:#d43b3c;
 }
 .fixed-link *{
     display: block;
-    width:100%;
+
     height: auto;
 }
+body{
+    padding-top:59px;
+}
 @media only screen and  (min-width : 400px) {
-
+    body{
+        padding-top:0;
+    }
     .fixed-link{
         left: 10px;
         top: 10px;
         right:auto;
     }
     .fixed-link img{
-        width:100%;
+
     }
 
 }
