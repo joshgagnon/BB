@@ -393,8 +393,6 @@ south over 16 years ago. Fraser works for Transfield Services during the week an
 works 1-2 nights at a local restaurant. They enjoy: developing and maintaining their large
 garden, being involved with a local theatre group, art, music, food, reading, travelling and
 meeting new people. Their son lives in Dunedin and their daughter lives in Perth.</p>
-<p>Their Birman cat Sundance is part of the family, but is not allowed in the
-B&B wing of the house.</p>
 </div>
 
 
