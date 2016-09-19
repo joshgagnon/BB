@@ -341,6 +341,7 @@ The rooms are set up for single people or couples so therefore are not suitable 
 <p>Below are just some of the things to do in this area. </p>
 <ul>
 
+<li>Cycling: The Great Taste Trail <a href="www.abeltasman.co.nz/a-day/">www.abeltasman.co.nz/a-day/</a>
 <li>Cycling: The Great Taste Trail <a href="http://www.trailjourneys.co.nz/nelson">www.trailjourneys.co.nz/nelson</a>
 
 <a href="http://www.gentlecycling.co.nz">www.gentlecycling.co.nz</a>, <a href="http://www.wheeliefantastic.co.nz">www.wheeliefantastic.co.nz</a></li>
@@ -353,7 +354,7 @@ The rooms are set up for single people or couples so therefore are not suitable 
 
 <li>Boating and Kayaking <a href="http://www.abeltasmanseashuttles.co.nz">www.abeltasmanseashuttles.co.nz</a></li>
 
-<li>Abel Tasman Excursions <a href="http://www.abeltasman.co.nz">www.abeltasman.co.nz</a></li>
+<li>Abel Tasman Excursions <a href="http://www.abeltasman.co.nz">www.abeltasman.co.nz</a>, <a href="www.abeltasman.co.nz/a-day/">www.abeltasman.co.nz/a-day</a></li>
 
 <li>Mapua Ferry <a href="http://www.mapuaferry.co.nz">www.mapuaferry.co.nz</a></li>
 
