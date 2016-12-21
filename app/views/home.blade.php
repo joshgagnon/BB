@@ -125,7 +125,7 @@
 
 	<div id="links" >
 		<div>
-			<a target="_blank" href="http://bandbassociation.co.nz/profile/Redvale+Ridge" ><img class="association" src="{{ asset('images/bandbassoc.png') }}" alt="B and B Association" /></a></div>
+			<a target="_blank" href="http://www.bedandbreakfastnz.co.nz/redvale-ridge-bed-and-breakfast-nelson.html" ><img class="association" src="{{ asset('images/bandbassoc.png') }}" alt="B and B Association" /></a></div>
 		<div>	<a target="_blank" href="https://www.facebook.com/rrbandb"><img class="facebook" src="{{ asset('images/FB-f-Logo__blue_144.png') }}" alt="Find us on Facebook" /></a></div>
 		<div>
 		<div id="TA_rated860" class="TA_rated">
@@ -243,7 +243,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 </section>
 
 <section id="rooms">
-<h2 id="rooms-head">B&B Rooms and Rates</h2>
+<h2 id="rooms-head">B&amp;B Rooms and Rates</h2>
 <div class="container">
 <div class="row">
 <div class="col-lg-6">
@@ -289,7 +289,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 </p>
 <p>
 <strong><em>Rates</em></strong><br/>
-$220 per night.<br/>
+$180 - $240 per night.<br/>
 We welcome direct booking.
 </p>
 
