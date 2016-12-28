@@ -83,7 +83,7 @@ p{
 }
 #links > div{
 	display:inline-block;
-	margin:5px 28px;
+	margin:5px 8px;
 }
 #links img{
 	vertical-align: bottom;
@@ -325,6 +325,9 @@ body{
     }
     .nav-links{
             max-width:800px;
+    }
+    #links > div{
+        margin:5px 28px;
     }
 }
 
