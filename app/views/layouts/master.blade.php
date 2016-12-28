@@ -29,18 +29,13 @@
 
   <section id="footer" class="footer">
 <div class="container">
-<div class="nav-links">
+<div class="footer-links">
 	<a href="#home-head" >The Home</a>
 	<a href="#rooms-head" >Rooms</a>
 	<a href="#todo-head" >Things to do</a>
 	<a href="#todo-hosts" >About Us</a>
 	<a href="#todo-head" >Things to do</a>
-	<a href="#location-head" >Location</a>
-	 @if(!Auth::check())
-	{{ HTML::link('login', 'Login') }}
-	@else
-	{{ HTML::link('logout', 'Logout') }}
-	@endif
+	<a href="#location-head" >Location &amp; Contact</a>
 
 </div>
 

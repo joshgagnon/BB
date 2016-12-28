@@ -18,15 +18,16 @@ body {
     padding-bottom: 180px;
     background-color: #fafcfc;
     font-family: 'Open Sans', sans-serif;
-    background-image: url(/images/confectionary.png);
+  
     font-size: 16px;
     overflow-x:hidden;
 }
+
 section{
 	overflow-x:hidden;
 }
 section .container{
-	background-color: #FFFEF7;
+	/*background-color: #FFFEF7;*/
 	padding-bottom:60px;
 }
 section .container.no-bg{
@@ -61,7 +62,7 @@ h2{
 	margin:-20px -15px 0 -15px;
 }
 .container .bg-image{
-	margin:0 auto 15px auto;
+    margin: 20px auto;
 }
 
 .header .bg-image{
@@ -73,6 +74,7 @@ h2{
 
 p{
 	margin-top: 15px;
+    text-align: justify;
 }
 
 
@@ -81,7 +83,7 @@ p{
 }
 #links > div{
 	display:inline-block;
-	margin:5px 10px;
+	margin:5px 28px;
 }
 #links img{
 	vertical-align: bottom;
@@ -100,7 +102,9 @@ img.facebook {
 	margin:0 !important;
 	top: -12px;
 }
-
+.TA_rated {
+    margin-top: 16px;
+}
 
 .header .logo {
 	max-width: 80%;
@@ -148,7 +152,7 @@ section#bg-pic-2 {
   font-size: 16px;
   color: rgb(247, 247, 247);
 }
-.footer .nav-links{
+.footer .footer-links{
     margin-bottom: 8px;
 }
 .footer .copyright-info{
@@ -244,12 +248,25 @@ text-align: center;
 	}
 }
 
+
+.list li{
+    list-style:none;
+   padding-left: 1em; 
+    text-indent: -.7em;
+}
+.list li:before {
+    content: "•";
+    color: #92AFBD;
+    padding-right:7px
+}
+
+
 .fixed-link{
     position: fixed;
     z-index: 20;
-    left: 0;
+    right: 0;
     top: 0;
-    right:0;
+
  background-color:#d43b3c;
 }
 .fixed-link *{
@@ -260,19 +277,55 @@ text-align: center;
 body{
     padding-top:59px;
 }
+#top{
+    text-align:center;
+}
+.logo{
+    max-width: 100%;
+}
 @media only screen and  (min-width : 400px) {
     body{
         padding-top:0;
     }
     .fixed-link{
-        left: 10px;
+        left: auto;
         top: 10px;
-        right:auto;
+        right:10px;
     }
-    .fixed-link img{
+    .logo{
 
+        padding-top:75px;
+        margin: 0 auto;
     }
 
+}
+@media only screen and  (min-width : 790px) {
+    .logo{
+        padding-top:0;
+    }
+    #top{
+        text-align: left;
+    }
+    .nav-links a{
+        font-size:18px;
+    }
+}
+
+
+@media only screen and  (min-width : 1300px) {
+    #top{
+        height: 140px;
+        overflow-y:hidden;
+    }
+    .nav-links a{
+        font-size:20px;
+    }
+    .logo{
+        position: absolute;
+    }
+    .nav-links{
+            max-width:800px;
+    }
 }
 
 
@@ -387,4 +440,24 @@ p.quote {
 
 .quote-overlay .quote{
     margin-top: 20%;
+}
+
+
+.nav-links{
+    float:right;
+    height:100%;
+    display:table;
+    text-align: center;
+    width:100%;
+}
+
+.nav-links a{
+    padding:4px 4px;
+    display:table-cell;
+    vertical-align: bottom;
+    color:#333;
+}
+.nav-links a:hover{
+    text-decoration: none;
+        text-shadow: 1px 1px #ccc;
 }
