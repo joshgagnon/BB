@@ -12,7 +12,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<link rel="shortcut icon"   type="image/png" href="/favicon.png" />
 	<link href="{{ asset('bower/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
-	<link href="{{ asset('bower/bootstrap-datepicker/css/datepicker.css') }}" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	<link href="{{ asset('css/style.css') }}" rel="stylesheet">
  	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
