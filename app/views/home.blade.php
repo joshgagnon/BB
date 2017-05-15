@@ -296,7 +296,7 @@ We welcome direct booking.
 
 
 <p>
-The rooms are set up for single people or couples so therefore are not suitable for children.
+Children by prior arrangement only, thank you.
 </p>
 </div>
 <div class="col-lg-6">
@@ -304,9 +304,9 @@ The rooms are set up for single people or couples so therefore are not suitable 
      <p>
 <strong><em>Cancellation Policy</em></strong><br/>
 <ul>
-<li>Reservations cancelled up to 7 days prior to arrival  - no cancellation fee.</li>
-<li>Reservations cancelled up to 2 days prior to arrival - 100 cancellation fee unless room can be resold.</li>
-<li>'No Shows' - full cost of booking will be charged.</li>
+<li>Two days prior to arrival: 50%</li>
+<li>One day prior to arrival: 100%</li>
+<li>No shows: 100%</li>
 </ul>
 </p>
 
@@ -402,7 +402,7 @@ meeting new people. Their son lives in Dunedin and their daughter lives in Perth
 <h2  id="food-head">Food</h2>
 	@include('partials.carousel', array('images' => $food,'bg' => false, 'id' => 'food-cara'))
 
-<p>Choice of continental or full cooked breakfast. </p>
+<p>Choice of continental or full cooked breakfast.  We like to give our guests what they would like; therefore, we offer a wide range of choices. Our homemade jams are always a hit!</p>
 <p>Fresh baking daily.</p>
 <p>Optional: Tasting platter on arrival $35, must be pre-ordered.</p>
 <p>* All dietary needs catered for. Gluten free cooking a specialty.
