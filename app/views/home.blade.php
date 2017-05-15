@@ -26,7 +26,7 @@ Rooms & Rates
     Contact Us
     </a>
 
-</div>    
+</div>
 
 
 
@@ -451,7 +451,7 @@ meeting new people. Their son lives in Dunedin and their daughter lives in Perth
 <div class="col-md-6">
 
 <div>
-<p><strong>Bookings</strong> <a href="https://smartgms.com/book/smartcal?cid=88303">booking.com</a></p>
+<p><strong>Bookings</strong> Book directly using the contact details below</p>
 <p><strong>Phone</strong> <a href="tel:+64035446478">+64 224 566 478</a></p>
 <p><strong>Email</strong> <a href="mailto:redvaleridge@gmail.com">redvaleridge@gmail.com</a></p>
 <p><strong>Address</strong><br/>
