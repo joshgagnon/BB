@@ -4,14 +4,36 @@
 @stop
 @section('content')
 
+<section id="top">
+    <img class="logo" src="{{ asset('images/bb3.png') }}" alt="Redvale Ridge B&B" />
 <div class="fixed-link">
 <div id="SMART-widget-container"><a target="_blank" href="https://smartgms.com/book/smartcal?cid=88303"><img src="https://smartgms.com/site/templates/img/smartres/buttons/button05.png" width="270" height="59" alt="Availability and Book Now"></a></div>
 </div>
 
-<section class="container-fluid header">
-	 @include('partials.carousel', array('images' => $banner,'bg' => true, 'id' => 'banner-cara'))
 
-	<img class="logo" src="{{ asset('images/bb2.png') }}" alt="Redvale Ridge B&B" />
+<div class='nav-links'>
+<a href="#home-head">
+The Home
+</a>
+<a href="#rooms-head">
+Rooms & Rates
+</a>
+
+    <a href="#hosts-head">
+    About Us
+    </a>
+    <a href="#location-head">
+    Contact Us
+    </a>
+
+</div>    
+
+
+
+    </section>
+<section class="container-fluid header">
+     @include('partials.carousel', array('images' => $banner,'bg' => true, 'id' => 'banner-cara'))
+
 </section>
 
 <!--<section id="navigation">
@@ -44,7 +66,7 @@
 <section id="main-menu">
 <div class="container">
 
-<div class="row">
+<!-- <div class="row">
 	<div class="col-md-4">
 		<a href="#home-head">
 		<div class="menu-box">
@@ -122,6 +144,8 @@
 		</div>
 		</a>
 	</div>
+-->
+
 
 	<div id="links" >
 		<div>
@@ -197,7 +221,7 @@ help you make plans for all the wonderful things to do and see in this area; we 
 <div class="col-lg-6">
 <p>Built in 2012 our home is a large, one level dwelling with two purpose built B&B rooms on the
 eastern side. The house incorporates many eco features, which are:</p>
-<ul>
+<ul class="list">
 <li>Passive solar, thermally and energy efficient design</li>
 
 <li>Thermally broken throughout the building envelope</li>
@@ -250,7 +274,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <p>There are two large luxurious rooms, one with a King bed and one with a Queen.  </p>
 
 <p>Each room has:</p>
-<ul>
+<ul class="list">
 <li>Beautiful ensuites</li>
 
 <li>Table and chairs inside and out</li>
@@ -339,9 +363,8 @@ Children by prior arrangement only, thank you.
 </div>
 <div class="col-lg-6 list">
 <p>Below are just some of the things to do in this area. </p>
-<ul>
+<ul class="list">
 
-<li>Cycling: The Great Taste Trail <a href="www.abeltasman.co.nz/a-day/">www.abeltasman.co.nz/a-day/</a>
 <li>Cycling: The Great Taste Trail <a href="http://www.trailjourneys.co.nz/nelson">www.trailjourneys.co.nz/nelson</a>
 
 <a href="http://www.gentlecycling.co.nz">www.gentlecycling.co.nz</a>, <a href="http://www.wheeliefantastic.co.nz">www.wheeliefantastic.co.nz</a></li>
@@ -388,7 +411,7 @@ Children by prior arrangement only, thank you.
 <div class="col-lg-6">
 <h2  class="bgh">&nbsp;</h2>
 <h2  id="hosts-head">About Us</h2>
-<img class="inline-img" src="{{ asset('images/hosts.jpg') }}" width="100%" alt="The Hosts, Barbara & Fraser Grant">
+<img class="bg-image" src="{{ asset('images/hosts.jpg') }}" width="100%" alt="The Hosts, Barbara & Fraser Grant">
 <p>Barbara and Fraser came from the bottom of the south, where they farmed, to the top of the
 south over 16 years ago. Fraser works for Transfield Services during the week and Barbara
 works 1-2 nights at a local restaurant. They enjoy: developing and maintaining their large
@@ -418,11 +441,30 @@ meeting new people. Their son lives in Dunedin and their daughter lives in Perth
 
 
 <section id="location">
-	<h2  id="location-head">Location</h2>
+	<h2  id="location-head">Location &amp; Contact</h2>
 <div class="container">
 <div class="row">
-<div class="col-lg-12">
+<div class="col-md-6">
 <iframe src="https://www.google.com/maps/embed/v1/place?q=redvale%20ridge%20b%26b%20richmond&key=AIzaSyBcUlrIphw6eoWvKt_Ln7vEeeJkhgg-iL8"width="100%" height="450" frameborder="0" style="border:0" id="googleMap"></iframe>
+</div>
+
+<div class="col-md-6">
+
+<div>
+<p><strong>Bookings</strong> <a href="https://smartgms.com/book/smartcal?cid=88303">booking.com</a></p>
+<p><strong>Phone</strong> <a href="tel:+64035446478">+64 224 566 478</a></p>
+<p><strong>Email</strong> <a href="mailto:redvaleridge@gmail.com">redvaleridge@gmail.com</a></p>
+<p><strong>Address</strong><br/>
+
+114 Redvale Rd<br/>
+Galeo Estate<br/>
+Redwood Valley<br/>
+Tasman<br/>
+South Island<br/>
+New Zealand
+ </p>
+
+</div>
 </div>
 </div>
 </div>
