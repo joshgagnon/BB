@@ -151,7 +151,7 @@ Rooms & Rates
 		<div>
 			<a target="_blank" href="http://www.bedandbreakfastnz.co.nz/redvale-ridge-bed-and-breakfast-nelson.html" ><img class="association" src="{{ asset('images/bandbassoc.png') }}" alt="B and B Association" /></a></div>
 		<div>	<a target="_blank" href="https://www.facebook.com/rrbandb"><img class="facebook" src="{{ asset('images/FB-f-Logo__blue_144.png') }}" alt="Find us on Facebook" /></a></div>
-		<div>
+		<!-- <div>
 		<div id="TA_rated860" class="TA_rated">
 		<ul id="dYlfdXwAbI" class="TA_links iMWitMLK86gO">
 		<li id="G8rQPvOxA" class="XwqrStLvO3">
@@ -160,7 +160,11 @@ Rooms & Rates
 		</ul>
 		</div>
 		<script src="http://www.jscache.com/wejs?wtype=rated&amp;uniq=860&amp;locationId=7986014&amp;lang=en_NZ&amp;display_version=2"></script>
-		</div>
+		</div> -->
+
+
+<div style="zoom: 0.7;" id="TA_certificateOfExcellence438" class="TA_certificateOfExcellence"><ul id="sOEnGP2" class="TA_links SLE3djcIzL8"><li id="13ubKiW" class="rWj2hpDKUkF"><a target="_blank" href="https://www.tripadvisor.co.nz/Hotel_Review-g8099604-d7986014-Reviews-Redvale_Ridge_B_B-Redwood_Valley_Nelson_Tasman_Region_South_Island.html"><img src="https://www.tripadvisor.co.nz/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a></li></ul></div><script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=438&amp;locationId=7986014&amp;lang=en_NZ&amp;year=2017&amp;display_version=2"></script>
+
 	</div>
 
 
