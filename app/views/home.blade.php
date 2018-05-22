@@ -271,7 +271,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <div class="container">
 <div class="row">
 <div class="col-lg-6">
-<p>There are two large luxurious rooms, one with a King bed and one with a Queen.  </p>
+<p>There are two luxurious rooms, the Red Room and Green Room, both with King beds. The bed in the Red Room is adjustable for firmness on each side.  </p>
 
 <p>Each room has:</p>
 <ul class="list">
