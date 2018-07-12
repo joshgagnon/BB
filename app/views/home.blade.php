@@ -317,8 +317,8 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 </p>
 <p>
 <strong><em>Rates</em></strong><br/>
-$180 - $240 per night.<br/>
-We welcome direct booking.
+From $200 per night.<br/>
+For direct bookings go to red Booking Button.
 </p>
 
 
@@ -429,7 +429,7 @@ meeting new people. Their son lives in Dunedin and their daughter lives in Perth
 <h2  id="food-head">Food</h2>
 	@include('partials.carousel', array('images' => $food,'bg' => false, 'id' => 'food-cara'))
 
-<p>Choice of continental or full cooked breakfast.  We like to give our guests what they would like; therefore, we offer a wide range of choices. Our homemade jams are always a hit!</p>
+<p>Choice of continental or full cooked breakfast. Talk to us about the options.</p>
 <p>Fresh baking daily.</p>
 <p>Optional: Tasting platter on arrival $35, must be pre-ordered.</p>
 <p>* All dietary needs catered for. Gluten free cooking a specialty.
