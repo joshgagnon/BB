@@ -35,7 +35,7 @@
 	<a href="#todo-head" >Things to do</a>
 	<a href="#todo-hosts" >About Us</a>
 	<a href="#todo-head" >Things to do</a>
-	<a href="#location-head" >Location &amp; Contact</a>
+	<a href="#location-head" >Location &amp; Bookings</a>
 
 </div>
 

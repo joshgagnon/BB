@@ -6,9 +6,6 @@
 
 <section id="top">
     <img class="logo" src="{{ asset('images/bb3.png') }}" alt="Redvale Ridge B&B" />
-<div class="fixed-link">
-<div id="SMART-widget-container"><a target="_blank" href="https://smartgms.com/book/smartcal?cid=88303"><img src="https://smartgms.com/site/templates/img/smartres/buttons/button05.png" width="270" height="59" alt="Availability and Book Now"></a></div>
-</div>
 
 
 <div class='nav-links'>
@@ -23,7 +20,7 @@ Rooms & Rates
     About Us
     </a>
     <a href="#location-head">
-    Contact Us
+    Bookings
     </a>
 
 </div>
@@ -445,7 +442,7 @@ meeting new people. Their son lives in Dunedin and their daughter lives in Perth
 
 
 <section id="location">
-	<h2  id="location-head">Location &amp; Contact</h2>
+	<h2  id="location-head">Location &amp; Bookings</h2>
 <div class="container">
 <div class="row">
 <div class="col-md-6">
@@ -453,9 +450,12 @@ meeting new people. Their son lives in Dunedin and their daughter lives in Perth
 </div>
 
 <div class="col-md-6">
-
+    <p />
+<div id="SMART-widget-container"><a target="_blank" href="https://smartgms.com/book/smartcal?cid=88303"><img src="https://smartgms.com/site/templates/img/smartres/buttons/button05.png" width="270" height="59" alt="Availability and Book Now"></a></div>
 <div>
-<p><strong>Bookings</strong> Book directly using the contact details below</p>
+
+
+<p>- Or book directly using the contact details below -</p>
 <p><strong>Phone</strong> <a href="tel:+64035446478">+64 224 566 478</a></p>
 <p><strong>Email</strong> <a href="mailto:redvaleridge@gmail.com">redvaleridge@gmail.com</a></p>
 <p><strong>Address</strong><br/>
