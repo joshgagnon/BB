@@ -173,8 +173,7 @@ Rooms & Rates
 <div class="container">
 <div class="row">
 <div class="col-lg-6">
-<p>Our home situated at 114 Redvale Rd, in the award winning GALEO Estate is a contemporary
-country home, which blends in aesthetically with the environment. In building our home we
+<p>Welcome to our beautiful contemporary country home situated on top of a ridge at 114 Redvale Rd, in the award winning GALEO Estate, Tasman, South Island, New Zealand. In building our home we
 thought about health, well-being and impact on the environment so incorporated many eco
 features. The views from our home are simply stunning, taking in the Western Ranges,
 Tasman Bay out to D’Urville Island and at night the twinkling lights of Nelson.</p>
@@ -314,7 +313,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 </p>
 <p>
 <strong><em>Rates</em></strong><br/>
-From $200 per night.<br/>
+$205 - $250 per night.<br/>
 </p>
 
 
@@ -392,7 +391,7 @@ Children by prior arrangement only, thank you.
 
 <li>Happy Valley Adventures <a href="http://www.happtvalleyadventures.co.nz">www.happtvalleyadventures.co.nz</a></li>
 
-<li>Horse Riding <a href="http://www.blackbirdvly.co.nz">www.blackbirdvly.co.nz</a></li>
+
 
 <li>Beaches</li>
 
@@ -412,11 +411,18 @@ Children by prior arrangement only, thank you.
 <h2  class="bgh">&nbsp;</h2>
 <h2  id="hosts-head">About Us</h2>
 <img class="bg-image" src="{{ asset('images/hosts.jpg') }}" width="100%" alt="The Hosts, Barbara & Fraser Grant">
-<p>Barbara and Fraser came from the bottom of the south, where they farmed, to the top of the
-south over 16 years ago. Fraser works for Transfield Services during the week and Barbara
-works 1-2 nights at a local restaurant. They enjoy: developing and maintaining their large
-garden, being involved with a local theatre group, art, music, food, reading, travelling and
-meeting new people. Their son lives in Dunedin and their daughter lives in Perth.</p>
+<p>Hello from your hosts Barb and Fraser Grant.</p>
+<p>From a farming background in Southland we moved to the gorgeous ‘Top of the
+South’ 20 years ago. As well as running our B&amp;B, Fraser works full-time for
+Broadspectrum as a telco technician and I work weekend nights at a local
+café/theatre restaurant. Our two adult children currently live in Australia. The
+other member of our family is Tsar our Russian Blue cat.</p>
+
+<p>We love all kinds of art and this is reflected inside and outside our home. We
+have a large garden, which we planted from bare ground six years ago and
+keeping this maintained keeps us busy. When we get time off we like to explore
+our local area and further afield. We love music and go to concerts when we can.</p>
+<p>After three seasons of operation we are proud to rate highly on review sites.</p>
 </div>
 
 
@@ -428,7 +434,7 @@ meeting new people. Their son lives in Dunedin and their daughter lives in Perth
 <p>Choice of continental or full cooked breakfast. Talk to us about the options.</p>
 <p>Fresh baking daily.</p>
 <p>Optional: Tasting platter on arrival $35, must be pre-ordered.</p>
-<p>* All dietary needs catered for. Gluten free cooking a specialty.
+<p>* All dietary needs catered for. Gluten free a specialty.
 </p>
 
 
