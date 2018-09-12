@@ -145,8 +145,30 @@ Rooms & Rates
 
 
 	<div id="links" >
+
+<div id="hc-ratingRatingHotel" style="
+    transform: scale(0.8);
+    margin: 0 !important;
+    padding: 0;
+    transform-origin: bottom;
+">
+<div id="hc-ratingRatingHotel__inner"> <img id="hc-ratingRatingHotel__ribbon" src="https://media.datahc.com/ratinghotel/stellar2/ribbon.png"/>
+<span id="hc-ratingRatingHotel__year">2018</span>
+<span id="hc-ratingRatingHotel__award">RECOGNITION OF EXCELLENCE</span>
+<div id="hc-ratingRatingHotel__hotelink"> <a id="hc-ratingRatingHotel__hotelname" target="_blank" href="javascript:void(0)">Redvale Ridge B&B</a> </div>
+<a id="hc-ratingRatingHotel__hclink" target="_blank" href="http://www.hotelscombined.co.nz">HotelsCombined</a> </div>
+<div id="hc-ratingRatingHotel__rating"> <span id="hc-ratingRatingHotel__number">10.0</span>
+<span id="hc-ratingRatingHotel__pipe"></span> <span id="hc-ratingRatingHotel__ratedby">Rated by Guests</span> </div> </div>
+<div id="hc-data__hotellink" style="display: none;">Redvale_Ridge_BB</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"> </script>
+<script>(function(){var rand = Math.floor((Math.random() * 99999999) + 1); function loadjscssfile(a,b){if("js"==b){var c=document.createElement("script");c.setAttribute("type","text/javascript"),c.setAttribute("src",a)}else if("css"==b){var
+c=document.createElement("link");c.setAttribute("rel","stylesheet"),c.setAttribute("type","text/css"),c.setAttribute("href",a)}"undefined"!=typeof c&&document.getElementsByTagName("head")[0].appendChild(c)}
+loadjscssfile('https://media.datahc.com/ratinghotel/stellar2/styles.css?v' + rand, 'css'); loadjscssfile('https://media.datahc.com/ratinghotel/stellar2/script.js?v' + rand, 'js'); })(); </script>
+
+
 		<div>
-			<a target="_blank" href="http://www.bedandbreakfastnz.co.nz/redvale-ridge-bed-and-breakfast-nelson.html" ><img class="association" src="{{ asset('images/bandbassoc.png') }}" alt="B and B Association" /></a></div>
+			<a target="_blank" href="http://www.bedandbreakfastnz.co.nz/redvale-ridge-bed-and-breakfast-nelson.html" ><img class="association" src="{{ asset('images/bandbassoc.png') }}" alt="B and B Association" /></a>
+        </div>
 		<div>	<a target="_blank" href="https://www.facebook.com/rrbandb"><img class="facebook" src="{{ asset('images/FB-f-Logo__blue_144.png') }}" alt="Find us on Facebook" /></a></div>
 		<!-- <div>
 		<div id="TA_rated860" class="TA_rated">
