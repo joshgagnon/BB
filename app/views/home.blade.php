@@ -169,7 +169,9 @@ loadjscssfile('https://media.datahc.com/ratinghotel/stellar2/styles.css?v' + ran
 		<div>
 			<a target="_blank" href="http://www.bedandbreakfastnz.co.nz/redvale-ridge-bed-and-breakfast-nelson.html" ><img class="association" src="{{ asset('images/bandbassoc.png') }}" alt="B and B Association" /></a>
         </div>
-		<div>	<a target="_blank" href="https://www.facebook.com/rrbandb"><img class="facebook" src="{{ asset('images/FB-f-Logo__blue_144.png') }}" alt="Find us on Facebook" /></a></div>
+
+        <div>   <a target="_blank" href="https://www.facebook.com/rrbandb"><img class="facebook" src="{{ asset('images/FB-f-Logo__blue_144.png') }}" alt="Find us on Facebook" /></a></div>
+		<div>	<a target="_blank" href="https://www.instagram.com/redvaleridge"><img class="facebook" src="{{ asset('images/insta.png') }}" alt="Find us on Instagram" /></a></div>
 		<!-- <div>
 		<div id="TA_rated860" class="TA_rated">
 		<ul id="dYlfdXwAbI" class="TA_links iMWitMLK86gO">
