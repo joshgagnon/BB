@@ -389,7 +389,7 @@ Children by prior arrangement only, thank you.
 <li>We have planted thousands of plants most of them natives.</li>
 <li>We grow vegetables, fruit trees, citrus trees and berries.</li>
 <li>We only use our dryer for fluffing towels.</li>
-<li>We don’t provide small disposable toiletries.</li>
+<li>We provide body wash and hand wash in refillable dispensers and will provide shampoo and conditioner if requested.</li>
 <li>We have LED lighting but do not turn on lights where not necessary.  We also use sensor lights in critical places.</li>
 </ul>
 </div>
