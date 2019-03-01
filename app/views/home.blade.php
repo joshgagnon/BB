@@ -303,19 +303,13 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 
 <li>Table and chairs inside and out</li>
 
-<li>Comfortable, supportive beds</li>
+<li>Quality beds and bedding</li>
 
-<li>Bamboo sheets and pillowcases</li>
+<li>Free WiFi</li>
 
-<li>Handmade bedcovers</li>
-
-<li>32” Samsung TV</li>
-
-<li>DVD player with a selection of DVDs</li>
+<li>32" TV, DVD player with a selection of DVDs</li>
 
 <li>CD/USB stereo system</li>
-
-<li>Clock radio</li>
 
 <li>Tea and coffee facilities with freshly ground coffee and baking daily</li>
 
@@ -325,7 +319,6 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 
 <li>Original artwork</li>
 
-<li>Free WiFi</li>
 
 <li>Access to outside patio</li>
 
