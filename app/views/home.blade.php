@@ -184,9 +184,7 @@ loadjscssfile('https://media.datahc.com/ratinghotel/stellar2/styles.css?v' + ran
 		</div> -->
 
 
-<div style="zoom: 0.7;" id="TA_certificateOfExcellence438" class="TA_certificateOfExcellence"><ul id="sOEnGP2" class="TA_links SLE3djcIzL8"><li id="13ubKiW" class="rWj2hpDKUkF"><a target="_blank" href="https://www.tripadvisor.co.nz/Hotel_Review-g8099604-d7986014-Reviews-Redvale_Ridge_B_B-Redwood_Valley_Nelson_Tasman_Region_South_Island.html"><img src="https://www.tripadvisor.co.nz/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a></li></ul></div><script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=438&amp;locationId=7986014&amp;lang=en_NZ&amp;year=2017&amp;display_version=2"></script>
-
-	</div>
+<div style="zoom: 0.7;" id="TA_certificateOfExcellence247" class="TA_certificateOfExcellence"><ul id="5fJ8e3X" class="TA_links ioMlYdv"><li id="fXQ3Hl" class="23PgW2"><a target="_blank" href="https://www.tripadvisor.co.nz/Hotel_Review-g8099604-d7986014-Reviews-Redvale_Ridge_B_B-Redwood_Valley_Nelson_Tasman_Region_South_Island.html"><img src="https://www.tripadvisor.co.nz/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a></li></ul></div><script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=247&amp;locationId=7986014&amp;lang=en_NZ&amp;year=2018&amp;display_version=2" data-loadtrk onload="this.loadtrk=true"></script>
 
 
 </div>
@@ -330,7 +328,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 </p>
 <p>
 <strong><em>Rates</em></strong><br/>
-$205 - $250 per night.<br/>
+$215 - $250 per night.<br/>
 </p>
 
 
