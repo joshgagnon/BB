@@ -514,7 +514,7 @@ our local area and further afield. We love music and go to concerts when we can.
 
 <div class="col-md-6">
     <p />
-<div id="SMART-widget-container"><a target="_blank" href="https://smartgms.com/book/smartcal?cid=88303"><img src="https://smartgms.com/site/templates/img/smartres/buttons/button05.png" width="144" height="40" alt="Availability and Book Now"></a></div>
+<div id="SMART-widget-container"><a target="_blank" href="https://smartgms.com/book/smartcal?cid=88303"><img src="https://smartgms.com/site/templates/img/smartres/buttons/button06.png" width="144" height="40" alt="Availability and Book Now"></a></div>
 <div>
 
 
