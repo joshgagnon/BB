@@ -295,7 +295,7 @@ of the section contains mostly native shrubs, trees and grasses.</p>
 <div class="container">
 <div class="row">
 <div class="col-lg-6">
-<p>There are two luxurious rooms, the Red Room and Green Room, both with King beds. The bed in the Red Room is adjustable for firmness on each side.  </p>
+<p>There are two luxurious rooms, the Red Room and Green Room, both with King beds.  </p>
 
 <p>Each room has:</p>
 <ul class="list">
@@ -514,7 +514,7 @@ our local area and further afield. We love music and go to concerts when we can.
 
 <div class="col-md-6">
     <p />
-<div id="SMART-widget-container"><a target="_blank" href="https://smartgms.com/book/smartcal?cid=88303"><img src="https://smartgms.com/site/templates/img/smartres/buttons/button05.png" width="270" height="59" alt="Availability and Book Now"></a></div>
+<div id="SMART-widget-container"><a target="_blank" href="https://smartgms.com/book/smartcal?cid=88303"><img src="https://smartgms.com/site/templates/img/smartres/buttons/button06.png" width="270" height="59" alt="Availability and Book Now"></a></div>
 <div>
 
 
